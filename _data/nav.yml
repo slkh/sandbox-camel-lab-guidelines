@@ -1,0 +1,16 @@
+docs_list_title: CAMeL Guidelines Pages
+docs:
+- title: Home
+  url: index.html
+
+- title: Phonology
+  url: phonology.html
+
+- title: Orthography
+  url: orthography.html
+
+- title: Morphology
+  url: morphology.html
+
+- title: Data
+  url: data.html

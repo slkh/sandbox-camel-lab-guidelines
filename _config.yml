@@ -1,1 +1,17 @@
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
+
+# Build settings
+ style: 
+    sass_dir: ./_sass
+source: .
+includes_dir: ./_includes
+include: ['./_pages']
+destination: ./_site
+markdown: kramdown
+# don't change the following; coderay will break the embedded
+# annotations.
+kramdown:
+  enable_coderay: false
+permalinks: pretty
+# safe: true
+markdown_ext: md
