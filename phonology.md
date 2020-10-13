@@ -16,6 +16,20 @@ Mission Statement:
 ---
 CAPHI is designed to provide a system for transcribing all sounds found in all the dialects of Arabic, including Modern Standard Arabic (MSA) in a simple and objective way, but still maintaining enough complexity to distinguish meaningful differences between dialects.    
 
+
+### Goals
+<details>
+
+<summary> 
+   </summary>
+
+  1. Coverage - cover all known dialects
+  2. Simplicity - ignore minor differences in sounds that only linguists are trained to notice
+  3. Extensibility - CAPHI can be used to describe dialectal differences that have not been previously documented or studied
+  4. Representation - The writing system is precise enough to facilitate the above goals without being unnecessarily complex
+  5. Intuitive form - The CAPHI alphabet was designed to have an intuitive relationship between the letters and the sounds they stand for, making it easy to learn and use
+</details>
+
 Goals:
 ---
 1. Coverage - cover all known dialects
