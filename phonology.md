@@ -5,6 +5,11 @@ title: CAMeL Guidelines | Phonology Reference
 CAPHI: CAMeL Arabic Phonetic Inventory
 ===
 
+<button type="button" class="collapsible">Mission Statement:</button>
+<div class="content">
+  <p>CAPHI is designed to provide a system for transcribing all sounds found in all the dialects of Arabic, including Modern Standard Arabic (MSA) in a simple and objective way, but still maintaining enough complexity to distinguish meaningful differences between dialects.</p>
+</div>
+
 Mission Statement:
 ---
 CAPHI is designed to provide a system for transcribing all sounds found in all the dialects of Arabic, including Modern Standard Arabic (MSA) in a simple and objective way, but still maintaining enough complexity to distinguish meaningful differences between dialects.    
