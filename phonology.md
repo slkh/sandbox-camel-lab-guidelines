@@ -1,31 +1,44 @@
 ---
 layout: guidelines
-title: CAMeL Guidelines | Phonology Reference
+title: CAMeL Guidelines | Phonology Reference | yee
 ---
 CAPHI: CAMeL Arabic Phonetic Inventory
 ===
 
-# Mission Statement
+### Mission Statement
 <details>
-  <summary>CAPHI is designed to provide a system for transcribing all sounds found in all the dialects of Arabic, including Modern Standard Arabic (MSA) in a simple and objective way, but still maintaining enough complexity to distinguish meaningful differences between dialects.
-  </summary>
+
+<summary>
+
+   </summary>
+
+  CAPHI is designed to provide a system for transcribing all sounds found in all the dialects of Arabic, including Modern Standard Arabic (MSA) in a simple and objective way, but still maintaining enough complexity to distinguish meaningful differences between dialects.
   
 </details>
 
-Mission Statement:
 ---
-CAPHI is designed to provide a system for transcribing all sounds found in all the dialects of Arabic, including Modern Standard Arabic (MSA) in a simple and objective way, but still maintaining enough complexity to distinguish meaningful differences between dialects.    
 
-Goals:
----
-1. Coverage - cover all known dialects
-2. Simplicity - ignore minor differences in sounds that only linguists are trained to notice
-3. Extensibility - CAPHI can be used to describe dialectal differences that have not been previously documented or studied
-4. Representation - The writing system is precise enough to facilitate the above goals without being unnecessarily complex
-5. Intuitive form - The CAPHI alphabet was designed to have an intuitive relationship between the letters and the sounds they stand for, making it easy to learn and use
+### Goals
+<details>
 
-Explanation:
+<summary> 
+   </summary>
+
+  1. Coverage - cover all known dialects
+  2. Simplicity - ignore minor differences in sounds that only linguists are trained to notice
+  3. Extensibility - CAPHI can be used to describe dialectal differences that have not been previously documented or studied
+  4. Representation - The writing system is precise enough to facilitate the above goals without being unnecessarily complex
+  5. Intuitive form - The CAPHI alphabet was designed to have an intuitive relationship between the letters and the sounds they stand for, making it easy to learn and use
+</details>
+
 ---
+
+### Explanation
+<details>
+
+<summary> 
+   </summary>
+
 The CAMeL Arabic Phonetic Inventory (CAPHI) is a system for representing, i.e. transcribing, the production of Arabic utterances in any dialect, from Modern Standard Arabic (MSA) to the regional colloquial varieties. CAPHI represents every significant sound in all Arabic dialects with a unique letter, meaning that it can be used to represent different pronunciations of words that would otherwise be spelled in the same way according to MSA, CODA, Arabizi, or other Arabic spelling standards. Furthermore, the one-to-one relationship between the letters of CAPHI and the sounds they represent means that there will never be uncertainty regarding how to spell a given utterance.
 The sounds represented in CAPHI consist of all the sounds that can be used to distinguish meaning in any dialect as well as other sounds which are confusable with sounds that distinguish meaning. A sound distinguishes meaning if you can exchange it for another sound in some context and change the meaning of the word in question.
 For Example:
@@ -38,3 +51,30 @@ However, in some words an emphatic consonant will cause some of its non-adjacent
         1. blanc (French 'white', IPA /blɑ̃/)  ==>  /~ b l o n/
         2. train (French 'train', IPA /trɛ̃/) ==> /~ t r a n/
         3. musée (French 'museum', IPA /myze/)  ==> /~ m y u z e/
+</details>
+
+
+
+
+
+### Guidelines for writing in CAPHI
+<details>
+
+<summary>
+
+   </summary>
+
+General Instructions:
+* Memorize the CAPHI Phonetic Inventory (see bottom of this page) and refer back to it as often as necessary.  
+* Separate all sounds and boundary markers with a space. 
+Begin and end CAPHI representations with a “/” (no need to put a space before or after these slashes).
+* Word boundaries can be represented with a “#” when necessary.
+Be sure to describe the entire phrase as you would pronounce it naturally without thinking of orthographic boundaries, and only place the # marker afterwards.  
+* Say the word or utterance out loud and try to imagine a natural situation in which you would say it.
+* Pay attention to how an utterance is said and not to how it is written, keeping in mind that pronunciation can change depending on the context of the utterance.
+  
+| CODA Arabic (Levantine)| English | CAPHI |
+| :-------------: |:-------------:| :-----:|
+| باكْتِب اِسْمِك يا بِلادِي عالشَمس الِي ما بِتغِيب| I write your name o’ my country on the sun that never sets | /b a k t i b # 2 i s m i k # y a # b l aa d i 3 a sh sh a m s # i l # m aa # b i t gh ii b/ |
+
+</details>
