@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CAMeL Guidelines
+title: CAMeL Lab Guidelines
 ---
 
 CAMeL Guidelines

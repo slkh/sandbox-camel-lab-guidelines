@@ -9,6 +9,7 @@ markdown: kramdown
 # annotations.
 kramdown:
   enable_coderay: false
+  parse_block_html: true
 permalinks: pretty
 # safe: true
 markdown_ext: md

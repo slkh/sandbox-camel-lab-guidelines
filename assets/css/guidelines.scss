@@ -65,7 +65,7 @@ h1 {
   font-size: 40px;
   font-weight: 700;
   display: inline-block;
-  color: #bb2126;
+  color: #d2090f;
   text-align: center;
   // font-size: 3vh;
 }
@@ -102,7 +102,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #bb2126;
+  color: #d2090f;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -294,7 +294,7 @@ button{
 
 nav{
   // width: 100vw;
-  background-color: #bb2126;
+  background-color: #d2090f;
   // display: table-cell;
   display: inline-block;
   text-align: center;
@@ -307,14 +307,14 @@ nav ul {
   display: inline-flex;
   vertical-align: top;
 }
-nav li { 
+nav li {
   list-style-type: none;
   margin: 0;
   padding: 0;
   font-weight: 700; font-size: 15px; text-shadow: #111 0px 0px 5px;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif ;
   }
-nav li a { 
+nav li a {
   text-decoration: none;
   color: white;
   font-weight: 700; font-size: 15px; text-shadow: #111 0px 0px 5px;
@@ -331,7 +331,7 @@ nav li a:hover { color: #dac1c1; text-decoration: none;}
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #bb2126 no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #d2090f no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -339,7 +339,7 @@ nav li a:hover { color: #dac1c1; text-decoration: none;}
 }
 
 #header_wrap {
-  background: #bb2126;
+  background: #d2090f;
 }
 
 #header_wrap .inner {
@@ -451,7 +451,7 @@ Small Device Styles
     display: inline-block;
     font-size: 26px;
     color: white;
-    background-color: #bb2126;
+    background-color: #d2090f;
     border: none;
     outline: none;
     cursor: pointer;
@@ -518,7 +518,7 @@ Small Device Styles
     display: inline-block;
     font-size: 26px;
     color: white;
-    background-color: #bb2126;
+    background-color: #d2090f;
     border: none;
     outline: none;
     cursor: pointer;
@@ -586,7 +586,7 @@ Small Device Styles
     display: inline-block;
     font-size: 26px;
     color: white;
-    background-color: #bb2126;
+    background-color: #d2090f;
     border: none;
     outline: none;
     cursor: pointer;
@@ -602,5 +602,3 @@ Small Device Styles
     display: block;
   }
 }
-
-

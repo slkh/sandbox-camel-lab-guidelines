@@ -77,4 +77,9 @@ Be sure to describe the entire phrase as you would pronounce it naturally withou
 | :-------------: |:-------------:| :-----:|
 | باكْتِب اِسْمِك يا بِلادِي عالشَمس الِي ما بِتغِيب| I write your name o’ my country on the sun that never sets | /b a k t i b # 2 i s m i k # y a # b l aa d i 3 a sh sh a m s # i l # m aa # b i t gh ii b/ |
 
+Special Considerations
+Long vowels: long vowels are not separated by a space /aa/ , /ii/ , /ee/, /uu/, and /oo/ , keep in mind that these are representations of vowel length and are not two separate vowels. 
+Gemminations: if you are not sure whether a consonant at the end of a word is doubled or not, such as in the Egyptian word سِمّ, “poison”, you can reassure yourself by comparing it to a similar word such as سِمسِم “sesame” and notice how the length of the /m/ sound decreases.
+
+
 </details>
