@@ -24,6 +24,15 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+mark.red {
+  background-color: rgb(184, 139, 139);
+}
+
+mark.green {
+  background-color: rgb(125, 165, 125);
+}
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
