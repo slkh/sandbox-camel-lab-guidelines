@@ -163,18 +163,19 @@ pre, code {
   color: #222;
   background-color: #fff;
 
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: monospace;
   font-size: 14px;
-
+  font-weight: 700;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
 }
 
 pre {
-  padding: 10px;
+  padding: 3px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
+  
 }
 
 code {
@@ -272,7 +273,25 @@ body::before {
   background-attachment: fixed;
 }
 
-
+table, tr, td, th
+{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+ tr.header
+{
+    cursor:pointer;
+    text-align: center;
+}
+ .header .sign:after{
+  content:"+";
+  text-align: right;
+  display:inline-block;
+}
+ .header.expand .sign:after{
+  content:"-";
+  text-align: right;
+ }
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
