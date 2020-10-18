@@ -191,10 +191,10 @@ Our list of allowed pairings is presented in the table below:
 
 
 ***
-<!--     
-<details><summary>
+    
+<details><summary markdown='span'>
   more examples
-  </summary> -->
+  </summary>
 
 | CODA                          | CAPHI                                       | Gloss           | CODA Letter | Dialectal Sound | MSA Sound | e.g Dialect  | NON-CODA examples; Comments                                                                                                                                                                                      | 
 |-------------------------------|---------------------------------------------|-----------------|-------------|-----------------|-----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
@@ -238,7 +238,7 @@ Our list of allowed pairings is presented in the table below:
 
 
 
-  <!-- </details> -->
+  </details>
 
 
 
