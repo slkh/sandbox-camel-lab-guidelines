@@ -37,8 +37,8 @@ as singular because they do not use the sound plural affixes.
 Another property is that in CAMEL POS tagest we omit case and state 
 features for nominals, and voice and mood for verbs when annotating dialecta 
 Arabic as the dialects have almost lost them completely, except for some high 
-frequency fossilized MSA forms, such as طبعاً /t. a b 3 a n/ [<sup>[^1]</sup>]
-‘of course’ which retains an indefinite ending.
+frequency fossilized MSA forms, such as <span dir="rtl">طبعاً</span> 
+<span class="caphi">/t. a b 3 a n/</span>[^1] ‘of course’ which retains an indefinite ending.
 
 The main part of the word, that is the baseword, is tagged in the following 
 format: `POS.features`, where `POS` is the core POS tag and `features` is the 
@@ -87,23 +87,24 @@ nominals take **C**ase and **S**tate, and verbs take **V**oice and
 
 - **NOUN**, __NOUN\_\*__, **ADJ**, __ADJ_*__ All nominals take the combination 
 of **G**ender, **N**umber. For example جالس /y aa l i s/ ‘sitting’ is tagged 
-`ADJ.MS` ; In the occasional uses of **S**tate, such as طبعاً /t. a b 3 a n/ 
-‘of course’ the tag would be `NOUN.MS.I`. 
+`ADJ.MS` ; In the occasional uses of **S**tate, such as <span dir="rtl">طبعاً</span> 
+<span class="caphi">/t. a b 3 a n/</span> ‘of course’ the tag would be `NOUN.MS.I`. 
 
 - **VERB** All verbs take the combination of **A**spect, **P**erson, **G**ender 
-and **N**umber. For example يقطع /y i g t. a 3/ ‘cut’ is tagged as `VERB.I3MS`
+and **N**umber. For example <span dir="rtl">يقطع</span> <span class="caphi">/y i g t. a 3/</span> ‘cut’ is tagged as `VERB.I3MS`
 
 - **PRON** All pronouns take the combination of **P**erson, **G**ender and 
-**N**umber. For example انتي /2 i n t y/ ‘you \[fs\]’
+**N**umber. For example <span dir="rtl">انتي</span> <span class="caphi">/2 i n t y/</span> ‘you \[fs\]’
 is tagged as `PRON.2FS`
 
 - **PRON_DEM** All demonstrative pronouns take the combination of **G**ender 
-and **N**umber. For example هاذا /h aa dh a/ ‘this’ is tagged as `PRON_DEM.3MS`
+and **N**umber. For example <span dir="rtl">هاذا</span> <span class="caphi">/h aa dh a/</span> ‘this’ is tagged as `PRON_DEM.3MS`
 
 In cases where a feature is not present, such as gender in verbs of first person 
 inflections, the gender feature is simply dropped and does not require a 
 placeholder since the possible feature values are ordered and unique. For example
-the imperfective 1st person verb أقول /2 a g uu l/ ‘I say’ will be
+the imperfective 1st person verb <span dir="rtl">أقول</span> <span class="caphi">/2 a g uu l/</span> ‘I say’ will be
 tagged as `VERB.I1S`
+
 
 [^1]: Refer to the [phonology guidelines]({% link phonology.md %}) for the complete CAPHI reference.
