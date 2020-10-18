@@ -13,3 +13,6 @@ kramdown:
 permalinks: pretty
 # safe: true
 markdown_ext: md
+
+plugins:
+  - jekyll-spaceship

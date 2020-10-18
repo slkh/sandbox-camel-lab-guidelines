@@ -1,6 +1,6 @@
 ---
 layout: guidelines
-title: CAMeL Guidelines | Phonology Reference | yee
+title: CAMeL Guidelines | Phonology Reference 
 ---
 CAPHI: CAMeL Arabic Phonetic Inventory
 ===
@@ -48,7 +48,7 @@ Be sure to describe the entire phrase as you would pronounce it naturally withou
 * Say the word or utterance out loud and try to imagine a natural situation in which you would say it.
 * Pay attention to how an utterance is said and not to how it is written, keeping in mind that pronunciation can change depending on the context of the utterance.
   
-| CODA Arabic (Levantine)               | English                                                    | CAPHI                                                                                       |
+| Arabic (Leventine)              | English                                                    | CAPHI                                                                                       |
 |--|--|--|
 | باكْتِب اِسْمِك يا بِلادِي عالشَمس الِي ما بِتغِيب| I write your name o’ my country on the sun that never sets | /b a k t i b # 2 i s m i k # y a # b l aa d i 3 a sh sh a m s # i l # m aa # b i t gh ii b/ |
 
@@ -58,7 +58,7 @@ Special Considerations
 * Long vowels: long vowels are not separated by a space /aa/ , /ii/ , /ee/, /uu/, and /oo/ , keep in mind that these are representations of vowel length and are not two separate vowels. 
 * Gemminations: if you are not sure whether a consonant at the end of a word is doubled or not, such as in the Egyptian word سِمّ, “poison”, you can reassure yourself by comparing it to a similar word such as سِمسِم “sesame” and notice how the length of the /m/ sound decreases.
 
-|    | CODA Arabic (EGY)| English | CAPHI |
+|    | Arabic (Egyptian)| English | CAPHI |
 |--|--|--|--|
 | Often Doubled| سِمّ | poison | /s i m m/  |
 |Not doubled|سِمسِم|sesame|/s i m s i m/|
@@ -69,7 +69,7 @@ Special Considerations
 * Vowel length and sentence syllabic rhythm: pay attention to vowel length as it can vary depending on the context, such as when a word is attached to affixes. Listen carefully to how vowels and the rhythm of an utterance are modified by other parts of the sentence.  Make sure to represent the vowel length in the particular context in which it is presented.
 
 
-|CODA Arabic (EGY)    |English    |CAPHI|
+|Arabic (Egyptian)    |English    |CAPHI|
 |--|--|--|--|
 |شَاف    |He saw    |/sh aa f/     |
 |ما شافش|He did not see |/m a # sh a f sh/
@@ -79,7 +79,7 @@ Special Considerations
 * Multiple pronunciations: CAPHI allows you to represent the phrase in the way it is actually uttered. The following examples show a couple of different ways in which a person may pronounce a phrase.  Either one can be correct, depending on how the speaker produces it.  
 
 
-|Dialect  | CODA Arabic| English | CAPHI |
+|Dialect  | Arabic | English | CAPHI |
 |--|--|--|--|
 | EGY |يا اهبل  | O’ stupid | /y a # 2 a h b a l/  |
 | EGY |يا اهبل  | O’ stupid | /y a # h b a l/  |
@@ -90,82 +90,54 @@ Special Considerations
 * In the middle of a word: to transcribe the MSA word ثور (bull), we prefer /th a w r/ and not /th a u r/.  Similarly, to represent how ثور (bull) is pronounced in the Egyptian dialect, we prefer /t. <mark class="green">oo</mark> r/ over /t. <mark class="red">o u</mark> r/.  
 
 
-
-|   | |  | CAPHI |
-|   CODA    |    English    |    CAPHI Correct     | Correct | Incorrect |
+| Dialect|   Arabic    |    English    |     <mark class="green">Correct</mark> CAPHI      | <mark class="red">Incorrect</mark> CAPHI |
 |--|--|--|--|
-| EGY |يا اهبل  | O’ stupid | /y a # 2 a h b a l/  |
-| EGY |يا اهبل  | O’ stupid | /y a # h b a l/  |
+| MSA |ثور  | bull | /th <mark class="green">a w</mark> r/  | /th <mark class="red">a u</mark> r/ |
+| EGY |ثور  | bull | /t. <mark class="green">o o</mark> r/  | /t. <mark class="red">o u</mark> r/ |
+
+* Long vowel vs short vowel-glide: for long vowels that fall in the middle of the word, such as in the Egyptian ثور (bull) example, avoid writing /t. o w r/, as /t. oo r/ is preferred.  This distinction is difficult to make and should not produce any minimal pairs.  Thus we make this simplification to avoid any confusions in transcription. This applies to all such long vowel constructions, where we encourage you to write  /oo/ and /uu/, not /o w/ or /u w/;  as well as  /ee/ and /ii/, not /e y/ and /i y/ as is shown in the following examples:
+
+| Dialect|   Arabic    |    English    |     <mark class="green">Correct</mark> CAPHI      | <mark class="red">Incorrect</mark> CAPHI |
+|--|--|--|--|
+| MSA |بيت  | house | /b <mark class="green">a y</mark> t/  | 
+| EGY |بيت  | house | /b <mark class="green">ee</mark> t/  | /b <mark class="red">e y</mark> t/ |
+| MSA |ثور  | bull | /th <mark class="green">a w</mark>  r/  | 
+| EGY |ثور  | bull | /t. <mark class="green">oo</mark> r/  | /t. <mark class="green">o w</mark> r/ |
+
+
+* Vowels in the middle of the word and the glottal stop: sometimes in rapid speech, the glottal stop between two identical vowels is not fully pronounced.  Consider the MSA word سَأل, “asked”, which in Egyptian, may be pronounced with a less distinct /2/ sound.  However if you pay close attention, the glottal stop is still there, just enunciated less. Thus /s a 2 a l/ is a better transcription than /s a a l/, or /s aa l/, which would be the spelling for an entirely different word سَال, “flowed”, and you can hear the difference in these Egyptian pronunciations if you pay close attention.
+
+| Dialect|   Arabic    |    English    |     <mark class="green">Correct</mark> CAPHI      | <mark class="red">Incorrect</mark> CAPHI |
+|--|--|--|--|
+| EGY |سَأل  | asked | /s <mark class="green">a 2 a</mark> l/  | /s <mark class="red">a a</mark> l/ |
+
+
+* Vowels at the end of a word: Keep in mind that not all words that are spelled with a word-final long vowel are necessarily pronounced as such.  Most if not all dialects will have short vowel endings for words such as ذَكِي, “smart”, صَبِي, “boy”, etc.  That said, في, “there is”, /f ii/, is often pronounced with a long vowel in many dialects, while في, “in”, is often shortened when uttered in context. Also, sometimes word final short vowels can be elongated when a suffix is added. For example, the Egyptian word عَمَلِي (practical m.) is usually pronounced /3 a m a l i/, while عَمَلِيَّة (practical f.) is usually pronounced /3 a m a l i y y a/.  Again, listen to how it is said and not how it is written. 
+
+| Dialect|   Arabic    |    English    |    CAPHI      |
+|--|--|--|--|
+| EGY |عَمَلِي  | Practical (m.) | /3 a m a l i/  | 
+| EGY |عَمَلِيَّة  | Practical (f.) | /3 a m a l i y y a/  | 
+| EGY |فِي عَرَبِيَّة  | There is a car | /f ii # 3 a r a b i yy a/  | 
+| EGY |فِي الكَبارَيه  | In the cabaret | /f # i l k a b a r ee/  | 
+| LEV |انا ما فِيِّ احِبَّك اكثَر  | It’s not in me to love you more | /a n a # m aa # f i y y i # h i b b a k # a k t a r/  | 
+
+* MSA has word final glide consonants that can be geminated, or doubled, whereas this may not be the case with many of these words’ cognates in other dialects, i.e in MSA ذَكِيّ, “smart”, is usually pronounced /dh a k i y y/ and not /dh a k i/ as it would be pronounced in many dialects; عَلِيّ, “Ali” in MSA is usually pronounced /3 a l i y y/ and not /3 a l i/.
 
 
 
-| :    Easy Multiline   : |||
-| :----- | :----- | :------ |
-| Apple  | Banana | Orange  \
-| Apple  | Banana | Orange  \
-| Apple  | Banana | Orange
-| Apple  | Banana | Orange  \
-| Apple  | Banana | Orange  |
-| Apple  | Banana | Orange  |
+|| Dialect|   Arabic    |    English    |     CAPHI |
+|--|--|--|--|
+|<mark class="green">Correct</mark>| MSA|   عَمَلِيّ    |    Practical (m.)    |     /3 a m a l i y y/ |
+|<mark class="red">Incorrect</mark>| MSA|   ذَكِيّ    |    smart    |     /dh a k ii/ |
+|<mark class="green">Correct</mark>| LEV|   ذَكِيّ    |    smart    |     /z a k i/  |
+|<mark class="green">Correct</mark>| MSA|   ذَكِيّ    |    smart    |     /dh a k i y y/ |
+|<mark class="red">Incorrect</mark>| MSA|   عَلِيّ    |    Ali    |     /3 a l ii/ |
+|<mark class="green">Correct</mark>| MSA|   عَلِيّ    |    Ali    |     /3 a l  i y y/ |
 
 
+* Distinguishing between final /h/ and post-vocalic aspirations: many dialectal words are spelled with a word final ـه or ـة which are not actually pronounced, or may be pronounced with a slight puff of air called an aspiration that does not constitute a full /h/ sound, such as the following words: Egyptian Arabic  ده  “this”  /d a/, and proper name سميرة “Sameera”, /s a m ii r a/.  To distinguish between an aspiration and a fully pronounced /h/, consider the following test to reset your sense about the difference in pronunciation between a true /h/ and a post-vocalic aspiration. Compare the pronunciation of نبّى /n a b b a/ “to make a prophet” and نبّه /n a b b a h/ “to alert”.
 
+### CAPHI Phonetic Inventory
 
-
-
-
- 
-
-
-
- 
-
-MSA
-
-ثور
-
-bull
-
-/th a w r/
-
-/th a u r/ 
-
-EGY
-
-ثور
-
-bull
-
-/t. oo r/
-
-/t. o u r/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-|    |    |    |
-|--|--|--|
-|    |    |    |
-
-* kram
-+ down
-- now
-
-1. kram
-2. down
-. now
+<iframe width="1200" height="675" src="https://datastudio.google.com/embed/reporting/f3518ee2-2817-4689-a236-670f4a0f91bb/page/8b8gB" frameborder="0" style="border:0" allowfullscreen></iframe>
