@@ -10,9 +10,10 @@ markdown: kramdown
 kramdown:
   enable_coderay: false
   parse_block_html: true
+  footnote_nr: 1
 permalinks: pretty
 # safe: true
-markdown_ext: md
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,gfm"
 
 plugins:
   - jekyll-spaceship
