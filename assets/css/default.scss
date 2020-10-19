@@ -290,6 +290,7 @@ body::before {
   font-family: monospace;
 }
 
+summary h2, summary h3{ display: inline-block; }
 
 table, tr, td, th
 {
