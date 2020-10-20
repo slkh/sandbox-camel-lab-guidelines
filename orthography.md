@@ -1,8 +1,17 @@
 ---
 layout: guidelines
 title: CAMeL Guidelines | Orthography
-
+moreExamples: Click Here For More Examples
 ---
+<!-- 
+# TOC
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc} -->
+
+
+
 CODA*: Conventional Orthography for Dialectal Arabic
 ===
 
@@ -40,8 +49,8 @@ Some sections of these guidelines are continously researched and updated as more
 
 (CODA* version: 0.43)
 
-
-
+<!-- * TOC {:toc} -->
+  
 #### Basic Terminology
 
 ##### Sounds - Letters - Diacritics
@@ -192,9 +201,9 @@ Our list of allowed pairings is presented in the table below:
 
 ***
     
-<details><summary markdown='span'>
-  more examples
-  </summary>
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+  
+  
 
 | CODA                          | CAPHI                                       | Gloss           | CODA Letter | Dialectal Sound | MSA Sound | e.g Dialect  | NON-CODA examples; Comments                                                                                                                                                                                      | 
 |-------------------------------|---------------------------------------------|-----------------|-------------|-----------------|-----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
@@ -287,7 +296,7 @@ The general rule on phonological clitic spelling is that clitics that are mapped
 
 | CODA                               | CAPHI                                                     | Gloss                 | Tokenized CODA | e.g Dialect | Comments                                                                                       | 
 |------------------------------------|-----------------------------------------------------------|-----------------------|----------------|-------------|------------------------------------------------------------------------------------------------| 
-| <span dir='rtl'>ولحد ما يجي</span> | <span class='caphi'>w l a 7 a d d # m a # y ii g i</span> | and until he/it comes | و+ل+حد ما يجي  | Cairo       | notice how و and ل -- single letter clitics -- attach to adjacent morphemes while ما does not. | 
+| <span dir='rtl'>ولحد ما يجي</span> | <span class='caphi'>w l a 7 a d d #</span> <span class='caphi'> m a # y ii g i</span> | and until he/it comes | و+ل+حد ما يجي  | Cairo       | notice how و and ل -- single letter clitics -- attach to adjacent morphemes while ما does not. | 
 
 
 
