@@ -113,6 +113,8 @@ tokenized using the D3 tokenization scheme. Therefore, each token gets at least 
 In a large-scale full morphological annotation task, additional annotations are usually provided, such as lemmatization, English gloss, amd dialect identification.
 In this section we provide detailed guidelines in the context of a comperhensive annotation task.
 
+### Morphologican Annotation
+
 <details>
 
 <summary markdown="block"> 
@@ -136,8 +138,42 @@ The tokenization scheme recommended when annotating using {{ page.cameltools}} i
 | Various clitics         	| وهتجننني    	| و+ ه+ تجنن +ني 	| and she will drive me crazy 	| EGY     	|
 | Various clitics         	| وبتجننني    	| و+ ب+ تجنن +ني 	| and she will drive me crazy 	| GLF     	|
 
+### Clitics
+Clitics are syntactically independent morphems that are orthographically attached to the baseword. They can be in a number of parts of speech.
+
+**Notes**:
+
+- Clitics may interact with the spelling of the baseword. See the notes above on Tokenization and the [CODA general rules]({% link orthography.md %}).
+- Although writers -in dialectal Arabic mostly- tend to attach what is considered as a direct object clitic with the baseword (verbs, adjectives that are active participles), in the CODA convention they should be separate. For example <span dir="rtl">اجيبلك</span> should be <span dir="rtl">اجيب لك</span>, and <span dir="rtl">جايبلها</span> should be <span dir="rtl">جايب لها</span>. For the list of clitics, please refer to the CODA seed lexicon page: https://sites.google.com/a/nyu.edu/coda/dialect-specific <!--TODO: link to the new location of the seed lexicon-->
 </details>
 
+<details>
+<summary markdown="block">
+### Features
+</summary>
+Features refer to specific morphosyntactic aspects of the word that are abstracted away in the lemma form. For example, the word <span dir="rtl">أميرات</span> 'princesses' has the lemma <span dir="rtl">أمير</span> 'prince' with the features gender: feminine and number: plural.
+
+**Notes**
+
+-  Features may not necessarily match the form of the word: e.g. <span dir="rtl">حامل</span> 'pregnant' is gender: feminine even though it has no 'Ta marbuta'[^2] ending; and <span dir="rtl">خليفة</span>  'Khalifa (name); caliph' is gender: masculine and number: singular even though it ends with 'Ta marbuta'.
+- Some words have plurality to their meaning, but morphosyntactically are singular (collectable plurals). For example, <span dir="rtl">شجر</span> 'trees' is singular because we say <span dir="rtl">شجر طويل</span> 'tall trees' similar to <span dir="rtl">رجل طويل</span> 'a tall man'.
+- The assignment of the features are in context (sentence and document) and depends on the morpho-syntactic agreement at all times.
+- For specific examples and cases, refer to the notes section of the different parts-of-speech.
+- Features include gender, number, person, and aspect. Each feature has a number of possible values.
+- Features are represented in combinations in our system. The examples in the section are some feature-value pairs.
+
+| Features 	| الخصائص  	| POS 	| قسم الكلام 	| Description/الوصف                                                               	|
+|----------	|----------	|-----	|------------	|---------------------------------------------------------------------------------	|
+| .P3MS    	| ماضي.هو  	| فعل 	| VERB       	| Aspect:(P);Person:(3);Gender:(M);Number:(S) الزمن:ماضي؛الضمير:مفرد مذكر غائب    	|
+| .P1P     	| ماضي.أنا 	| فعل 	| VERB       	| Aspect:(P);Person:(1);Gender:unspecified;Number:(S) الزمن:ماضي؛الضمير:جمع متكلم 	|
+| .MS      	| هو       	| اسم 	| NOUN       	| Gender:(M);Number:(S) الجنس:مذكر؛العدد:مفرد                                     	|
+
+
+</details>
+
+* * *
+
+### Aditional Annotation Tasks
 
 <details>
 <summary markdown="block"> 
@@ -193,5 +229,17 @@ The English gloss refers to the semantic translation of the Arabic lemma.
 
 </details>
 
+<details>
+<summary markdown="block">
+### Dialect Identification
+</summary>
+Dialect identification (DID) is the task of tagging a certain context with a given dialect tag.
+
+Deciding the dialect tag depends on the context of the sentence and/or the document. As dialects may share the same words within themselves or with MSA, the dialect is inferred from the sentence structure and word order of that specific dialect.
+
+Although all words belonging to the same sentence may get the same dialect tag, in some cases two different dialectal structure could occur in the same sentence, hence we tag per word
+</details>
+
 
 [^1]: Refer to the [phonology guidelines]({% link phonology.md %}) for the complete CAPHI reference.
+[^2]: 'Ta Marbuta' suffix is usually used to mark the feminine gender.
