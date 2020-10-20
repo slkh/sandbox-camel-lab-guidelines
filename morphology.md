@@ -2,6 +2,7 @@
 layout: guidelines
 title: CAMeL Guidelines | Morphology
 camelpos: CAMEL POS
+moreExamples: Annotation examples
 ---
 CAMEL POS Schema and Guidelines
 ===
@@ -171,6 +172,362 @@ Features refer to specific morphosyntactic aspects of the word that are abstract
 
 </details>
 
+### CAMEL POS tagset
+
+<details>
+<summary markdown="block">
+### NOUN - <span dir="rtl">اسم</span>
+</summary>
+
+**Common Nouns**
+: Common nouns refer to entities and concepts that have a more general reference than proper nouns. Common nouns inflect for prefixes and suffixes of person, gender, number.
+
+- Some nouns, such as prepositional nouns (<span dir="rtl">عند، بين، أمام</span> ... etc) don't necessarily have clear features.
+To assign features for those cases, use a syntactic test for a nonsensical semantic context[^3]. For example, the word <span dir="rtl">أمام</span> can be in a nonsensical construction where you might say <span dir="rtl">الأمام الأول والأمام الثاني للبيت</span>. According to the morphosyntactic agreement this makes the features for <span dir="rtl">أمام</span> to be gender: M and number:S
+- For gender ambiguous cases, such as <span dir="rtl">طريق</span>, where <span dir="rtl">طريق</span> could be both masculine and feminine depending on the usage (<span dir="rtl">طريق طويل</span> and <span dir="rtl">طريق طويلة</span>). To assign the gender feature, resolve using the context if such is impossible assign it the form based gender.
+- Common nouns include derived such as <span dir="rtl">دباديب</span> and non-derived nouns such as <span dir="rtl">ام</span>.
+- Titles are also annotated as common nouns.
+- Common nouns also include a set of borrowed nouns.
+- In the context of dialectal text annotation, only nouns that appear to have a case ending such as <span dir="rtl">غصبٍ</span> will have state and case feature annotated. The 'case' feature in this situation is not the real case but rather a remnant from the MSA.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| Tag     	| العلامة 	| Arabic Word 	| English Gloss       	| Dialect 	|
+|---------	|---------	|-------------	|---------------------	|---------	|
+| NOUN.FP 	| اسم.هن  	| حرمات       	| women               	| GLF     	|
+| NOUN.FP 	| اسم.هن  	| حريم        	| women               	| GLF     	|
+| NOUN.FP 	| اسم.هن  	| نسوان       	| women               	| GLF     	|
+| NOUN.FS 	| اسم.هي  	| خالوه       	| aunt! (maternal)    	| GLF     	|
+| NOUN.FS 	| اسم.هي  	| عموه        	| aunt! (paternal)    	| GLF     	|
+| NOUN.FS 	| اسم.هي  	| حجرة        	| room                	| GLF     	|
+| NOUN.FS 	| اسم.هي  	| ميز         	| table               	| GLF     	|
+| NOUN.FS 	| اسم.هي  	| بكرة        	| tomorrow            	| GLF     	|
+| NOUN.FS 	| اسم.هي  	| شيشة        	| waterpipe           	| GLF     	|
+| NOUN.FS 	| اسم.هي  	| حرمة        	| woman               	| GLF     	|
+| NOUN.FS 	| اسم.هي  	| مرة         	| woman               	| GLF     	|
+| NOUN.MP 	| اسم.هم  	| بزران       	| child               	| GLF     	|
+| NOUN.MP 	| اسم.هم  	| عيال        	| child               	| GLF     	|
+| NOUN.MP 	| اسم.هم  	| رجّال        	| men                 	| GLF     	|
+| NOUN.MP 	| اسم.هم  	| رجاجيل      	| men                 	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| حق          	| for the benefit of  	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| خلاص        	| enough              	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| سكين        	| knife               	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| مكتوب       	| letter              	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| مثل         	| like                	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| حلق         	| mouth               	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| خشم         	| nose                	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| مال         	| of                  	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| حقّ          	| of, belongs to      	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| برع         	| outside, outside of 	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| حد          	| somebody, someone   	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| باكر        	| tomorrow            	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| امس         	| yesterday           	| GLF     	|
+| NOUN.MS 	| اسم.هو  	| كذي         	| like this, as this  	| GLF     	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### NOUN_PROP - <span dir="rtl">اسم_علم</span>
+</summary>
+
+**Proper Nouns**
+: Proper nouns are nouns that have a unique referential meaning in context that is mutually exclusive with other entities.
+
+- Proper nouns refer to names of people, geographical entities, months and acronyms.
+- Proper nouns with more than one part such as <span dir="rtl">محمد علي</span> should have both words annotated as proper nouns.
+- Names such as <span dir="rtl">عبد الله</span> and <span dir="rtl">علاء الدين</span> should be split, both words annotated as proper nouns.
+- Titles of newspapers, magazines, and news agencies, sports teams are annotated as proper nouns, as well as names of political parties, etc.
+- Proper nouns might exhibit a different kind of ambiguity where the word as a NOUN have features that fails the morpho-syntactic agreement when used as a proper noun. For example the proper noun <span dir="rtl">احلام</span> as a female given name behaves as a FS hence will be given NOUN_PROP.FS as a tag. The same applies to other proper nouns such as the newspaper name <span dir="rtl">الاهرام</span>, see examples below.
+- : Proper nouns can be confused with common nouns. A case in point is the word <span dir="rtl">جَنُوب إِفرِيقيا</span>, the two parts of the word are considered as proper nouns when it refers to the country, South Africa.
+- The lemma of a proper noun does not include Al but it includes the 'Ta Marbuta'. The proper noun <span dir="rtl">القاهرة</span> has the lemma <span dir="rtl">قاهرة</span>.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص               	| Arabic Example 	| English Gloss                  	|    Comments/Examples/Diaclect                 	|
+|--------------	|----------------------------------	|---------------	|----------------------------	|---------------------------------------------------	|
+| NOUN_PROP.MS 	| اسم علم.هو                       	| خليفة         	| Khalifa                    	| GLF,EGY , name of person                          	|
+| NOUN_PROP.MS 	| اسم علم.هو                       	| عبد الله      	| Abdullah                   	| GLF,EGY , both words get the same POS tag         	|
+| NOUN_PROP.FS 	| اسم علم.هي                       	| امريكا        	| America                    	| GLF,EGY , geographical entity                     	|
+| NOUN_PROP.FS 	| اسم علم.هي                       	| هند           	| Hind                       	| GLF,EGY                                           	|
+| NOUN_PROP.MS 	| اسم علم.هو                       	| ناتو          	| NATO                       	| GLF,EGY , acronym                                 	|
+| NOUN_PROP.MS 	| اسم علم.هو                       	| امشير         	| Meshir                     	| GLF,EGY , امشير شهر الرياح والزعابيب ;month       	|
+| NOUN_PROP.FS 	| اسم علم.هي                       	| الاهرام       	| Al Ahram                   	| GLF,EGY , نشرت الاهرام التقرير النهائي ;newspaper 	|
+| NOUN_PROP.MS 	| اسم علم.هو                       	| الاهرام       	| Al Ahram                   	| GLF,EGY , تلقى الاهرام اتصالا هاتفيا ;newspaper   	|
+| NOUN_PROP.FS 	| اسم علم.هي                       	| الاخوان       	| The Muslim Brotherhood     	| GLF,EGY , تلقت الإخوان تمويلاً ;newspaper          	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### NOUN_QUANT - <span dir="rtl">اسم_كم</span>
+</summary>
+
+Noun quantifiers
+: Noun quantifiers express either quantity or approximation.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features  	| قسم الكلام.الخصائص 	| Arabic Example 	| English Gloss 	| Comments/Examples/Diaclect 	|
+|---------------	|--------------------	|----------------	|---------------	|----------------------------	|
+| NOUN_QUANT.MS 	| اسم كم.هو          	| نص             	| half          	| GLF,EGY , نص ساعة          	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### NOUN_NUM - <span dir="rtl">اسم_عدد</span>
+</summary>
+
+**Cardinal numbers**
+: Cardinal numbers quantify rather than rank. They answer the question “How many?”
+
+- Compound numerals (from 21 to infinite) that are coordinated with the conjunction wa- follow the POS tag of the first element. If the first element is a cardinal number, the second element should be annotated as such.
+- Cardinal numbers can occur in pre-nominal and post-nominal positions without any agreement with the noun they occur with. They are invariable.
+<!--TODO discuss the MSA inverse agreement-->
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص 	| Arabic Example 	| English Gloss      	| Comments/Examples/Diaclect 	|
+|--------------	|--------------------	|----------------	|--------------------	|----------------------------	|
+| NOUN_NUM.MS  	| اسم عدد.هو         	| صفر            	| 0, zero            	| GLF                        	|
+| NOUN_NUM.MS  	| اسم عدد.هو         	| واحد           	| 1, one             	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| عشر            	| 10, ten            	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| عشرة           	| 10, ten            	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| امية           	| 100, one hundred   	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| مية            	| 100, one hundred   	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| الف            	| 1000, one thousand 	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| آلاف           	| 1000, thousands    	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| احدعش          	| 11, eleven         	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| اثنعش          	| 12, twelve         	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| ثلتعش          	| 13, thirteen       	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| اربعتعش        	| 14, fourteen       	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| خمستعش         	| 15, fifteen        	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| ستعش           	| 16, sixteen        	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| سبعتعش         	| 17, seventeen      	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| ثمنتعش         	| 18, eighteen       	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| تسعتعش         	| 19, nineteen       	| GLF                        	|
+| NOUN_NUM.MD  	| اسم عدد.هما♂       	| اثنين          	| 2, two             	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| عشرين          	| 20, twenty         	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| ميتين          	| 200, two hundred   	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| ثلاث           	| 3, three           	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| ثلاثة          	| 3, three           	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| ثلاثين         	| 30, thirty         	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| ثلاثمية        	| 300, three hundred 	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| اربع           	| 4, four            	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| اربعة          	| 4, four            	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| اربعين         	| 40, fourty         	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| اربعمية        	| 400, four hundred  	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| خمس            	| 5, five            	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| خمسة           	| 5, five            	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| خمسين          	| 50, fifty          	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| خمسمية         	| 500, five hundred  	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| ست             	| 6, six             	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| ستة            	| 6, six             	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| ستين           	| 60, sixty          	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| ستمية          	| 600, six hundred   	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| سبع            	| 7, seven           	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| سبعة           	| 7, seven           	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| سبعين          	| 70, seventy        	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| سبعمية         	| 700, seven hundred 	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| ثمان           	| 8, eight           	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| ثمانية         	| 8, eight           	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| ثمانين         	| 80, eighty         	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| ثمانمية        	| 800, eight hundred 	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| تسع            	| 9, nine            	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| تسعة           	| 9, nine            	| GLF                        	|
+| NOUN_NUM.MP  	| اسم عدد.هم         	| تسعين          	| 90, ninety         	| GLF                        	|
+| NOUN_NUM.FP  	| اسم عدد.هن         	| تسعمية         	| 900, nine hundred  	| GLF                        	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PRON - <span dir="rtl">ضمير</span>
+</summary>
+
+**Bound pronouns** - <span dir="rtl">**الضمائر المتصلة**</span>
+: Bound pronouns are morphemes that cannot occur independently of another morpheme. They are related to other words called their hosts.
+
+These pronouns bind to verbs to mark direct object, to nouns to mark possession, and to prepositions.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                	| Arabic Example                	| English Gloss     	| Comments/Examples/Diaclect 	|
+|:--------------	|-----------------------------------:	|-------------------------------:	|:-------------------	|:----------------------------	|
+| PRON.1P      	| <span dir="rtl">ضمير.نحن</span>     	| <span dir="rtl">+نا</span>      	| our, us           	| GLF                        	|
+| PRON.1S      	| <span dir="rtl">ضمير.انا</span>     	| <span dir="rtl">+ني</span>      	| me                	| GLF                        	|
+| PRON.1S      	| <span dir="rtl">ضمير.انا</span>     	| <span dir="rtl">+ي</span>      	| me, my            	| GLF                        	|
+| PRON.2FP     	| <span dir="rtl">ضمير.انتن</span>    	| <span dir="rtl">+كن</span>      	| you, your         	| GLF                        	|
+| PRON.2FS     	| <span dir="rtl">ضمير.انت♀</span>    	| <span dir="rtl">+ج</span>      	| you, your         	| GLF                        	|
+| PRON.2FS     	| <span dir="rtl">ضمير.انت♀</span>    	| <span dir="rtl">+ك</span>      	| you, your         	| GLF                        	|
+| PRON.2MP     	| <span dir="rtl">ضمير.انتم</span>    	| <span dir="rtl">+كم</span>      	| you, your         	| GLF                        	|
+| PRON.2MS     	| <span dir="rtl">ضمير.انت♂</span>    	| <span dir="rtl">+ك</span>      	| you, your         	| GLF                        	|
+| PRON.3FP     	| <span dir="rtl">ضمير.هن</span>      	| <span dir="rtl">+هن</span>      	| their, them       	| GLF                        	|
+| PRON.3FS     	| <span dir="rtl">ضمير.هي</span>      	| <span dir="rtl">+ها</span>      	| her, it, its      	| GLF                        	|
+| PRON.3MP     	| <span dir="rtl">ضمير.هم♂</span>     	| <span dir="rtl">+هم</span>      	| their, them       	| GLF                        	|
+| PRON.3MS     	| <span dir="rtl">ضمير.هو</span>      	| <span dir="rtl">+ه</span>      	| him, his, it, its 	| GLF                        	|
+
+</details>
+
+* * *
+
+**Unbound pronouns** - <span dir="rtl">**الضمائر المنفصلة**</span>
+: Unbound pronouns are free morphemes that occur as separate words.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                	| Arabic Example                        	| English Gloss 	| Comments/Examples/Diaclect 	|
+|--------------	|-----------------------------------:	|---------------------------------------:	|---------------	|----------------------------	|
+| PRON.1P      	| <span dir="rtl">ضمير.نحن</span>   	| <span dir="rtl">احن</span>            	| we            	| GLF                        	|
+| PRON.1P      	| <span dir="rtl">ضمير.نحن</span>   	| <span dir="rtl">احنا</span>           	| we            	| GLF                        	|
+| PRON.1P      	| <span dir="rtl">ضمير.نحن</span>   	| <span dir="rtl">حنّا</span>            	| we            	| GLF                        	|
+| PRON.1P      	| <span dir="rtl">ضمير.نحن</span>   	| <span dir="rtl">نحن</span>            	| we            	| GLF                        	|
+| PRON.1S      	| <span dir="rtl">ضمير.انا</span>   	| <span dir="rtl">انا</span>            	| I             	| GLF                        	|
+| PRON.2FS     	| <span dir="rtl">ضمير.انت♀</span>   	| <span dir="rtl">انتي</span>           	| you           	| GLF                        	|
+| PRON.2MS     	| <span dir="rtl">ضمير.انت♂</span>   	| <span dir="rtl">انت</span>            	| you           	| GLF                        	|
+| PRON.2P      	| <span dir="rtl">ضمير.انتم⚥</span>   	| <span dir="rtl">انتو</span>           	| you           	| GLF                        	|
+| PRON.3FS     	| <span dir="rtl">ضمير.هي</span>    	| <span dir="rtl">هي</span>             	| she is        	| GLF                        	|
+| PRON.3MS     	| <span dir="rtl">ضمير.هو</span>    	| <span dir="rtl">هو</span>             	| he, it        	| GLF                        	|
+| PRON.3P      	| <span dir="rtl">ضمير.هم⚥</span>   	| <span dir="rtl">هم</span>             	| they          	| GLF                        	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PRON_DEM - <span dir="rtl">ضمير_إشارة</span>
+
+</summary>
+
+**Demonstrative pronouns**
+: Demonstrative pronouns are pronouns used for proximal or distal reference.
+
+- Demonstrative Pronouns can be basewords and/or proclitics, some baseword pronouns take no fetures, see examples below.
+- The relationship between proximity and distance which does not seem to exist in Egyptian Arabic.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                         	| Arabic Example                	| English Gloss 	| Comments/Examples/Diaclect 	|
+|--------------	|-------------------------------------------:	|-------------------------------:	|---------------	|----------------------------	|
+| PRON_DEM     	| <span dir="rtl">ضمير_إشارة    </span>     	| <span dir="rtl">ا+  </span>   	|               	| EGY, أهو                   	|
+| PRON_DEM.MS  	| <span dir="rtl">ضمير_إشارة.هو </span>     	| <span dir="rtl">هاذا</span>   	| this/that     	| GLF                        	|
+| PRON_DEM.P   	| <span dir="rtl">ضمير_إشارة.هم⚥</span>     	| <span dir="rtl">ذول </span>   	| these/those   	| GLF                        	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PRON_INTERROG - <span dir="rtl">ضمير_استفهام</span>
+
+</summary>
+
+**Interrogative Pronouns**
+: Interrogative Pronouns are independent words that used to form direct questions.
+
+- Interrogative pronouns don't take features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features  	| قسم الكلام.الخصائص                    	| Arabic Example               	| English Gloss 	| Comments/Examples/Diaclect 	|
+|---------------	|--------------------------------------:	|--------------------------:	|---------------	|----------------------------	|
+| PRON_INTERROG 	| <span dir="rtl">ضمير_استفهام</span>   	| <span dir="rtl">كم</span>   	| how many      	| GLF                        	|
+| PRON_INTERROG 	| <span dir="rtl">ضمير_استفهام</span>   	| <span dir="rtl">كمن</span>   	| how many      	| GLF                        	|
+| PRON_INTERROG 	| <span dir="rtl">ضمير_استفهام</span>   	| <span dir="rtl">شقد</span>   	| how much      	| GLF                        	|
+| PRON_INTERROG 	| <span dir="rtl">ضمير_استفهام</span>   	| <span dir="rtl">ايش</span>   	| what          	| GLF                        	|
+| PRON_INTERROG 	| <span dir="rtl">ضمير_استفهام</span>   	| <span dir="rtl">شو</span>   	| what          	| GLF                        	|
+
+</details>
+</details>
+
+
+<details>
+<summary markdown="block">
+### PRON_REL - <span dir="rtl">ضمير_موصول</span>
+
+</summary>
+
+**Relative pronouns**
+: Relative pronouns introduce relative clauses
+
+- Relative pronouns don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features  	| قسم الكلام.الخصائص                   	| Arabic Example                    	| English Gloss        	| Comments/Examples/Diaclect 	|
+|---------------	|-------------------------------------:	|------------------------------:	|-----------------------	|----------------------------	|
+| PRON_REL      	| <span dir="rtl">ضمير_موصول</span>   	| <span dir="rtl">اللي</span>   	| who, which, whom      	| GLF                        	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PRON_EXCLAM - <span dir="rtl">ضمير_تعجب</span>
+
+</summary>
+
+**Exclamative Pronouns**
+: Exclamative Pronouns introduces exclamative structure
+
+- Exclamative Pronouns don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص            	| Arabic Example                	| English Gloss 	| Comments/Examples/Diaclect 	|
+|--------------	|-------------------------------	|-------------------------------	|---------------	|----------------------------	|
+| ADJ.MS       	| <span dir="rtl">صفة.هو</span>   	| <span dir="rtl">واجد</span>    	| a lot, very   	| GLF                        	|
+| ADJ.MS       	| <span dir="rtl">صفة.هو</span>   	| <span dir="rtl">سيّئ</span>    	| bad           	| GLF                        	|
+| ADJ.MS       	| <span dir="rtl">صفة.هو</span>   	| <span dir="rtl">زين</span>    	| good          	| GLF                        	|
+
+| POS.Features  	| قسم الكلام.الخصائص                   	| Arabic Example               	| English Gloss    	| Comments/Examples/Diaclect 	|
+|---------------	|-------------------------------------:	|-----------------------------:	|------------------	|---------------------------	|
+| PRON_EXCLAM      	| <span dir="rtl">ضمير_تعجب</span>   	| <span dir="rtl">ما</span>   	| what          	| GLF, الله ما أكبر غلاك       	|
+
+</details>
+</details>
+
+
+<details>
+<summary markdown="block">
+### ADJ - <span dir="rtl">صفة</span>
+
+</summary>
+
+**Adjectives**
+: Adjectives are nominals that describe or clarify a noun
+
+- Adjectives must inflect for gender and number according to the agreement rule with nouns.
+- The agreement rule states that adjectives must agree with the noun that they modify in gender and number. EXCEPT for plural irrational (<span dir="rtl">غير عاقل</span>) nouns, which always take feminine singular adjectives.
+For example of agreement: the word <span dir="rtl">مهم</span> inflects in agreement with the noun in the case of <span dir="rtl">امرأة مهمة</span> and <span dir="rtl">نساء مهمات</span>. It also agrees in the case of <span dir="rtl">كتاب مهم</span> but not <span dir="rtl">كتب مهمة</span>. Because the word <span dir="rtl">كتاب</span> is an irrational noun, hence the plural <span dir="rtl">كتب</span> takes a singular feminine adjective.
+- In the case where there is no noun in the sentence, the word will be tagged as an adjective if a specific noun can be recovered directly from the context. Otherwise, the word will be tagged as a noun.
+For example, the word <span dir="rtl">عرب</span> 'Arabs' could be a noun or an adjective. <span dir="rtl">عرب</span> as in <span dir="rtl">جاء الرجال العرب</span> 'The Arab men came' is tagged as an adjective, whereas in <span dir="rtl">معجم لسان العرب</span> 'Lisan Al Arab dictionary' <span dir="rtl">عرب</span> is tagged as a noun.
+- Although adjective must inflict in agreement with the noun, the features of the adjectives are annotated independently. In the example <span dir="rtl">كتب مهمة</span> the adjective <span dir="rtl">مهمة</span> is annotated with features feminine singular and NOT masculine plural.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص            	| Arabic Example                	| English Gloss 	| Comments/Examples/Diaclect 	|
+|--------------	|-------------------------------	|-------------------------------	|---------------	|----------------------------	|
+| ADJ.MS       	| <span dir="rtl">صفة.هو</span>   	| <span dir="rtl">واجد</span>    	| a lot, very   	| GLF                        	|
+| ADJ.MS       	| <span dir="rtl">صفة.هو</span>   	| <span dir="rtl">سيّئ</span>    	| bad           	| GLF                        	|
+| ADJ.MS       	| <span dir="rtl">صفة.هو</span>   	| <span dir="rtl">زين</span>    	| good          	| GLF                        	|
+
+</details>
+</details>
+
+
+
+
+
+
+
+
+
 * * *
 
 ### Aditional Annotation Tasks
@@ -243,3 +600,4 @@ Although all words belonging to the same sentence may get the same dialect tag, 
 
 [^1]: Refer to the [phonology guidelines]({% link phonology.md %}) for the complete CAPHI reference.
 [^2]: 'Ta Marbuta' suffix is usually used to mark the feminine gender.
+[^3]: https://en.wikipedia.org/wiki/Colorless_green_ideas_sleep_furiously
