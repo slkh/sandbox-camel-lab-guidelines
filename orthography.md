@@ -1,8 +1,17 @@
 ---
 layout: guidelines
 title: CAMeL Guidelines | Orthography
-
+moreExamples: Click Here For More Examples
 ---
+<!-- 
+# TOC
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc} -->
+
+
+
 CODA*: Conventional Orthography for Dialectal Arabic
 ===
 
@@ -40,8 +49,8 @@ Some sections of these guidelines are continously researched and updated as more
 
 (CODA* version: 0.43)
 
-
-
+<!-- * TOC {:toc} -->
+  
 #### Basic Terminology
 
 ##### Sounds - Letters - Diacritics
@@ -95,7 +104,7 @@ We define an Arabic base word to consist of a stem and the minimal number of con
 
 Hamza (Glottal Stop) spelling follows from the same rules as those of MSA and is unchanged from previous CODA versions. 
 
-(For a detailed explanation of Hamza spelling rules in MSA, you can refer to chapter 7 of the [QALB annotation guidelines](http://nlp.qatar.cmu.edu/qalb/QALB-guidelines_0.90.pdf))
+(For a detailed explanation of Hamza spelling rules in MSA, you can refer to chapter 7 of the [QALB annotation guidelines](http://nlp.qatar.cmu.edu/qalb/QALB-guidelines_0.90.pdf){:target="_blank"})
 
 ***
 
@@ -192,9 +201,9 @@ Our list of allowed pairings is presented in the table below:
 
 ***
     
-<details><summary markdown='span'>
-  more examples
-  </summary>
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+  
+  
 
 | CODA                          | CAPHI                                       | Gloss           | CODA Letter | Dialectal Sound | MSA Sound | e.g Dialect  | NON-CODA examples; Comments                                                                                                                                                                                      | 
 |-------------------------------|---------------------------------------------|-----------------|-------------|-----------------|-----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
@@ -287,7 +296,7 @@ The general rule on phonological clitic spelling is that clitics that are mapped
 
 | CODA                               | CAPHI                                                     | Gloss                 | Tokenized CODA | e.g Dialect | Comments                                                                                       | 
 |------------------------------------|-----------------------------------------------------------|-----------------------|----------------|-------------|------------------------------------------------------------------------------------------------| 
-| <span dir='rtl'>ولحد ما يجي</span> | <span class='caphi'>w l a 7 a d d # m a # y ii g i</span> | and until he/it comes | و+ل+حد ما يجي  | Cairo       | notice how و and ل -- single letter clitics -- attach to adjacent morphemes while ما does not. | 
+| <span dir='rtl'>ولحد ما يجي</span> | <span class='caphi'>w l a 7 a d d #</span> <span class='caphi'> m a # y ii g i</span> | and until he/it comes | و+ل+حد ما يجي  | Cairo       | notice how و and ل -- single letter clitics -- attach to adjacent morphemes while ما does not. | 
 
 
 
@@ -727,3 +736,7 @@ Demonstrative pronouns can be found in three forms:
 A large and growing database containing verified examples of CODA* spelling for dialectal words, including affixes and clitics, is available here.
 
 <iframe width="1200" height="675" src="https://datastudio.google.com/embed/reporting/9c0c420a-0ba2-440a-942e-b3e61cf6306d/page/jeFhB" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+### Archive
+<iframe src="https://drive.google.com/embeddedfolderview?id=1jThn3evyILiLJIPZbMnzh5Bhz9eiVgNW#list" style="width:100%; height:600px; border:0;"></iframe>
