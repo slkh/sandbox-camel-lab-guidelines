@@ -520,10 +520,324 @@ For example, the word <span dir="rtl">عرب</span> 'Arabs' could be a noun or a
 </details>
 </details>
 
+<details>
+<summary markdown="block">
+### ADJ_NUM - <span dir="rtl">صفة_عدد</span>
+
+</summary>
+
+**Ordinal numbers**
+: Ordinal numbers are used for ranking.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                	| Arabic Example                	| English Gloss 	| Comments/Examples/Diaclect 	|
+|--------------	|-----------------------------------	|-------------------------------	|---------------	|----------------------------	|
+| ADJ_NUM.MP   	| <span dir="rtl">صفة_عدد.هم</span>  	| <span dir="rtl">الاوائل</span>  	| the first     	| GLF,EGY                    	|
+| ADJ_NUM.MS   	| <span dir="rtl">صفة_عدد.هو</span>  	| <span dir="rtl">اول </span>   	| first         	| GLF,EGY , <span dir="rtl">اول المشوار</span>      	|
+| ADJ_NUM.FS   	| <span dir="rtl">صفة_عدد.هي</span>  	| <span dir="rtl">الثانية</span>  	| second        	| GLF,EGY                    	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### ADJ_COMP - <span dir="rtl">صفة_مقارنة</span>
+
+</summary>
+
+**Comparative Adjectives**
+: A comparative adjective is a form derived from verbs according to their inflectional category.
+
+- No morphological distinction is made between the comparative and the superlative meanings. The distinction is made based on the use of idafa (construct) with the superlative.
 
 
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                	| Arabic Example                	| English Gloss 	| Comments/Examples/Diaclect 	|
+|--------------	|-----------------------------------	|-------------------------------	|---------------	|----------------------------	|
+| ADJ_COMP.MS  	| <span dir="rtl">صفة_مقارنة.هو</span> 	| <span dir="rtl">ابرك</span>   	| better/best   	| GLF                        	|
+| ADJ_COMP.MS  	| <span dir="rtl">صفة_مقارنة.هو</span> 	| <span dir="rtl">اقل</span>    	| less/least    	| GLF                        	|
+| ADJ_COMP.MS  	| <span dir="rtl">صفة_مقارنة.هو</span> 	| <span dir="rtl">احسن</span>   	| better/best   	| GLF                        	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### VERB - <span dir="rtl">فعل</span>
+
+</summary>
+
+**Verbs**
+: A verb is a word used to describe an action, state, or occurrence, and forming the main part of the predicate of a sentence.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                    	| Arabic Example                	| English Gloss     	| Comments/Examples/Diaclect                                                    	|
+|--------------	|---------------------------------------	|-------------------------------	|-------------------	|-------------------------------------------------------------------------------	|
+| VERB.P3MS    	| <span dir="rtl">فعل.ماضي.هو</span>     	| <span dir="rtl">بقى</span>    	| became            	| EGY , <span dir="rtl">هو بقى زيّ أخوي; هو كان كويّس ما أعرفش ليه بقى كده</span> 	|
+| VERB.C2MS    	| <span dir="rtl">فعل.أمر.انت♂</span>    	| <span dir="rtl">انسى</span>   	| forget            	| EGY                                                                           	|
+| VERB.C2FS    	| <span dir="rtl">فعل.أمر.انت♀</span>    	| <span dir="rtl">انسي</span>   	| forget            	| EGY                                                                           	|
+| VERB.C2P     	| <span dir="rtl">فعل.أمر.انتم⚥</span>    	| <span dir="rtl">انسوا</span>  	| forget            	| EGY                                                                           	|
+| VERB.I3MS    	| <span dir="rtl">فعل.مضارع.هو</span>    	| <span dir="rtl">يخرج</span>   	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.I3FS    	| <span dir="rtl">فعل.مضارع.هي</span>    	| <span dir="rtl">تخرج</span>   	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.I3P     	| <span dir="rtl">فعل.مضارع.هم⚥</span>    	| <span dir="rtl">يخرجوا</span>   	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.I2MS    	| <span dir="rtl">فعل.مضارع.انت♂</span>    	| <span dir="rtl">تخرج</span>   	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.I2FS    	| <span dir="rtl">فعل.مضارع.انت♀</span>    	| <span dir="rtl">تخرجي</span>  	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.I2P     	| <span dir="rtl">فعل.مضارع.انتم⚥</span>    	| <span dir="rtl">تخرجوا</span>  	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.I1S     	| <span dir="rtl">فعل.مضارع.انا</span>    	| <span dir="rtl">اخرج</span>   	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.I1P     	| <span dir="rtl">فعل.مضارع.نحن</span>    	| <span dir="rtl">نخرج</span>   	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.P3MS    	| <span dir="rtl">فعل.ماضي.هو</span>     	| <span dir="rtl">خرج</span>    	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.P3FS    	| <span dir="rtl">فعل.ماضي.هي</span>     	| <span dir="rtl">خرجت</span>   	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.P3P     	| <span dir="rtl">فعل.ماضي.هم⚥</span>    	| <span dir="rtl">خرجوا</span>  	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.P2MS    	| <span dir="rtl">فعل.ماضي.انت♂</span>    	| <span dir="rtl">خرجت</span>   	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.P2FS    	| <span dir="rtl">فعل.ماضي.انت♀</span>    	| <span dir="rtl">خرجتي</span>  	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.P2P     	| <span dir="rtl">فعل.ماضي.انتم⚥</span>    	| <span dir="rtl">خرجتوا</span>  	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.P1S     	| <span dir="rtl">فعل.ماضي.انا</span>    	| <span dir="rtl">خرجت</span>   	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.P1P     	| <span dir="rtl">فعل.ماضي.نحن</span>    	| <span dir="rtl">خرجنا</span>  	| go out/exit/leave 	| EGY                                                                           	|
+| VERB.I3MS    	| <span dir="rtl">فعل.مضارع.هو</span>    	| <span dir="rtl">يمشي</span>   	| leave             	| EGY                                                                           	|
+| VERB.I3FS    	| <span dir="rtl">فعل.مضارع.هي</span>    	| <span dir="rtl">تمشي</span>   	| leave             	| EGY                                                                           	|
+| VERB.I3P     	| <span dir="rtl">فعل.مضارع.هم⚥</span>    	| <span dir="rtl">يمشوا</span>  	| leave             	| EGY                                                                           	|
+| VERB.I2MS    	| <span dir="rtl">فعل.مضارع.انت♂</span>    	| <span dir="rtl">تمشي</span>   	| leave             	| EGY                                                                           	|
+| VERB.I2FS    	| <span dir="rtl">فعل.مضارع.انت♀</span>    	| <span dir="rtl">تمشي</span>   	| leave             	| EGY                                                                           	|
+| VERB.I2P     	| <span dir="rtl">فعل.مضارع.انتم⚥</span>    	| <span dir="rtl">تمشوا</span>  	| leave             	| EGY                                                                           	|
+| VERB.I1S     	| <span dir="rtl">فعل.مضارع.انا</span>    	| <span dir="rtl">امشي</span>   	| leave             	| EGY                                                                           	|
+| VERB.I1P     	| <span dir="rtl">فعل.مضارع.نحن</span>    	| <span dir="rtl">نمشي</span>   	| leave             	| EGY                                                                           	|
+| VERB.P3MS    	| <span dir="rtl">فعل.ماضي.هو</span>     	| <span dir="rtl">مشي</span>    	| leave             	| EGY                                                                           	|
+| VERB.P3FS    	| <span dir="rtl">فعل.ماضي.هي</span>     	| <span dir="rtl">مشيت</span>   	| leave             	| EGY                                                                           	|
+| VERB.P3P     	| <span dir="rtl">فعل.ماضي.هم⚥</span>    	| <span dir="rtl">مشيوا</span>  	| leave             	| EGY                                                                           	|
+| VERB.P2MS    	| <span dir="rtl">فعل.ماضي.انت♂</span>    	| <span dir="rtl">مشيت</span>   	| leave             	| EGY                                                                           	|
+| VERB.P2FS    	| <span dir="rtl">فعل.ماضي.انت♀</span>    	| <span dir="rtl">مشيتي</span>  	| leave             	| EGY                                                                           	|
+| VERB.P2P     	| <span dir="rtl">فعل.ماضي.انتم⚥</span>    	| <span dir="rtl">مشيتوا</span>  	| leave             	| EGY                                                                           	|
+| VERB.P1S     	| <span dir="rtl">فعل.ماضي.انا</span>    	| <span dir="rtl">مشيت</span>   	| leave             	| EGY                                                                           	|
+| VERB.P1P     	| <span dir="rtl">فعل.ماضي.نحن</span>    	| <span dir="rtl">مشينا</span>  	| leave             	| EGY                                                                           	|
+| VERB.C2MS    	| <span dir="rtl">فعل.أمر.انت♂</span>    	| <span dir="rtl">اشتغل</span>  	| work              	| EGY                                                                           	|
+| VERB.C2FS    	| <span dir="rtl">فعل.أمر.انت♀</span>    	| <span dir="rtl">اشتغلي</span>  	| work              	| EGY                                                                           	|
+| VERB.C2P     	| <span dir="rtl">فعل.أمر.انتم⚥</span>    	| <span dir="rtl">اشتغلوا</span>  	| work              	| EGY                                                                           	|
+| VERB.I3MS    	| <span dir="rtl">فعل.مضارع.هو</span>    	| <span dir="rtl">يشوف</span>   	| see               	| GLF                                                                           	|
+| VERB.I3FS    	| <span dir="rtl">فعل.مضارع.هي</span>    	| <span dir="rtl">تشوف</span>   	| see               	| GLF                                                                           	|
+| VERB.I3P     	| <span dir="rtl">فعل.مضارع.هم⚥</span>    	| <span dir="rtl">يشوفون</span>  	| see               	| GLF                                                                           	|
+| VERB.I3FP    	| <span dir="rtl">فعل.مضارع.هن</span>    	| <span dir="rtl">يشوفن</span>  	| see               	| GLF                                                                           	|
+| VERB.I2MS    	| <span dir="rtl">فعل.مضارع.انت♂</span>    	| <span dir="rtl">تشوف</span>   	| see               	| GLF                                                                           	|
+| VERB.I2FS    	| <span dir="rtl">فعل.مضارع.انت♀</span>    	| <span dir="rtl">تشوفين</span>  	| see               	| GLF                                                                           	|
+| VERB.I2P     	| <span dir="rtl">فعل.مضارع.انتم⚥</span>    	| <span dir="rtl">تشوفون</span>  	| see               	| GLF                                                                           	|
+| VERB.I2FP    	| <span dir="rtl">فعل.مضارع.انتن</span>    	| <span dir="rtl">تشوفن</span>  	| see               	| GLF                                                                           	|
+| VERB.I1S     	| <span dir="rtl">فعل.مضارع.انا</span>    	| <span dir="rtl">اشوف</span>   	| see               	| GLF                                                                           	|
+| VERB.I1P     	| <span dir="rtl">فعل.مضارع.نحن</span>    	| <span dir="rtl">نشوف</span>   	| see               	| GLF                                                                           	|
+| VERB.P3MS    	| <span dir="rtl">فعل.ماضي.هو</span>     	| <span dir="rtl">شاف</span>    	| see               	| GLF                                                                           	|
+| VERB.P3FS    	| <span dir="rtl">فعل.ماضي.هي</span>     	| <span dir="rtl">شافت</span>   	| see               	| GLF                                                                           	|
+| VERB.P3P     	| <span dir="rtl">فعل.ماضي.هم⚥</span>    	| <span dir="rtl">شافوا</span>  	| see               	| GLF                                                                           	|
+| VERB.P3FP    	| <span dir="rtl">فعل.ماضي.هن</span>     	| <span dir="rtl">شافون</span>  	| see               	| GLF                                                                           	|
+| VERB.P2MS    	| <span dir="rtl">فعل.ماضي.انت♂</span>    	| <span dir="rtl">شفت</span>    	| see               	| GLF                                                                           	|
+| VERB.P2FS    	| <span dir="rtl">فعل.ماضي.انت♀</span>    	| <span dir="rtl">شفتي</span>   	| see               	| GLF                                                                           	|
+| VERB.P2P     	| <span dir="rtl">فعل.ماضي.انتم⚥</span>    	| <span dir="rtl">شفتوا</span>  	| see               	| GLF                                                                           	|
+| VERB.P2FP    	| <span dir="rtl">فعل.ماضي.انتن</span>    	| <span dir="rtl">شفتن</span>   	| see               	| GLF                                                                           	|
+| VERB.P1S     	| <span dir="rtl">فعل.ماضي.انا</span>    	| <span dir="rtl">شفت</span>    	| see               	| GLF                                                                           	|
+| VERB.P1P     	| <span dir="rtl">فعل.ماضي.نحن</span>    	| <span dir="rtl">شفنا</span>   	| see               	| GLF                                                                           	|
+| VERB.C2MS    	| <span dir="rtl">فعل.أمر.انت♂</span>    	| <span dir="rtl">شوف</span>    	| see               	| GLF                                                                           	|
+| VERB.C2FS    	| <span dir="rtl">فعل.أمر.انت♀</span>    	| <span dir="rtl">شوفي</span>   	| see               	| GLF                                                                           	|
+| VERB.C2P     	| <span dir="rtl">فعل.أمر.انتم⚥</span>    	| <span dir="rtl">شوفوا</span>  	| see               	| GLF                                                                           	|
+| VERB.C2FP    	| <span dir="rtl">فعل.أمر.انتن</span>    	| <span dir="rtl">شوفن</span>   	| see               	| GLF                                                                           	|>
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### VERB_PSEUDO - <span dir="rtl">شبه_فعل</span>
+
+</summary>
+
+**Pseudo Verbs**
+: Pseudo verbs are words that have the same syntactic behavior as verbs in that they take a subject and a predicate, or a sentential complement.
+
+- Pseduo verbs don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص            	| Arabic Example                	| English Gloss                 	| Comments/Examples/Diaclect                            	|
+|--------------	|-------------------------------	|-------------------------------	|-------------------------------	|-------------------------------------------------------	|
+| VERB_PSEUDO  	| <span dir="rtl">شبه_فعل</span>   	| <span dir="rtl">ياريتْ</span>  	| (If only), (Wish)                	| GLF,EGY, <span dir="rtl">ياريتْني ما جيت</span>         	|
+| VERB_PSEUDO  	| <span dir="rtl">شبه_فعل</span>   	| <span dir="rtl">ترى</span>    	| by the way, for your information 	| GLF, <span dir="rtl">ترى الرحلة طويلة لإيطاليا</span>  	|
+| VERB_PSEUDO  	| <span dir="rtl">شبه_فعل</span>   	| <span dir="rtl">تو</span>     	| just now, at the moment          	| GLF, <span dir="rtl">كانت توها داشة الفيلا</span>      	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### VERB_NOM - <span dir="rtl">اسم_فعل</span>
+
+</summary>
+
+**Non-Inflectional verbs**, also called **Frozen Verbs** 
+: These are frozen expressions that behave like verbs syntactically but not morphologically. From a morphological point of view they are not inflectional, meaning that they do not inflect for all their tenses, sometimes none, and they do not have gender/number agreement. Syntactically, they subcategorize for arguments in the form of prepositional phrases and direct objects.
 
 
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                	| Arabic Example                	| English Gloss                 	| Comments/Examples/Diaclect                        	|
+|--------------	|-----------------------------------	|-------------------------------	|-------------------------------	|---------------------------------------------------	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">(ما) عدا</span> 	| Except                        	| EGY <span dir="rtl">كلّهم راحوا ما عدا محمّد</span> 	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">آمينْ</span>   	| Amen                           	| EGY <span dir="rtl">آمِينْ رب العالمينْ</span>       	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">اف</span>     	| (ugh)                          	| EGY <span dir="rtl">أُفّ مِنّكْ</span>                 	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">اخص</span>    	| Shame on you!                  	| EGY <span dir="rtl">إخص عليك</span>               	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">اسفخص</span>   	| exclamation of disgust         	| EGY <span dir="rtl">إسفخص عليه</span>             	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">اخيه</span>   	| exclamation of disgust         	| EGY <span dir="rtl">إخّيه عليه</span>              	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">إخ</span>     	| exclamation of disgust         	| EGY                                               	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">آهْ</span>     	| (Ah)                           	| EGY <span dir="rtl">آهْ مِنّكْ</span>                 	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">اوهْ</span>    	| (Ah)                           	| EGY <span dir="rtl">أُوهْ مِنّكْ</span>                	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">ما</span>     	| not                            	| EGY <span dir="rtl">ما ليش غيرك</span>            	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">حاشا</span>    	| Except                         	| EGY <span dir="rtl">حاشا للّه</span>               	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">يالله</span>   	| hurry up, come on              	| EGY <span dir="rtl">يالله نمشي يا سارة!</span>    	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">ايا</span>    	| Watch out {+ pronoun enclitic} 	| EGY <span dir="rtl">اياك والحركات دي</span>       	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">يالله</span>  	| hurry up, come on              	| GLF <span dir="rtl">يالله نسير يا سارة!</span>    	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">آمينْ</span>   	| Amen                           	| GLF <span dir="rtl">آمِينْ رب العالمينْ</span>       	|
+| VERB_NOM     	| <span dir="rtl">اسم_فعل</span>    	| <span dir="rtl">اف</span>     	| (ugh)                          	| GLF <span dir="rtl">أُفّ مِنّكْ</span>                 	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### ADV - <span dir="rtl">ظرف</span>
+
+</summary>
+
+**Adverbs**
+: Adverbs are invariable and terminal words that give information about the time, location, manner, cause, purpose, or any other adverbial function modifying the verb or sentence.
+
+- A word is invariable as it does not participate in an idafa construction. A word is terminal when nothing modifies it.
+- Some adverbs take pronominal clitics, in such cases, those pronouns are going to be cliticized normally. Example, <span dir="rtl">يا دوب +ك</span>. Also, note that adverbs with initial <span dir="rtl">يا</span> are considered to be two separate words.
+- Adverbs don't take features.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص 	| Arabic Example 	| English Gloss                                                                  	| Comments/Examples/Diaclect                                               	|
+|--------------	|--------------------	|----------------	|--------------------------------------------------------------------------------	|--------------------------------------------------------------------------	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يلسة</span>            	| still                                                                          	| EGY , <span dir="rtl">أنا لسّة ما خلّصتش</span> كلامي                                             	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">ييا دوب</span>         	| It’s high time/ a little/yet/still/just                                        	| EGY , <span dir="rtl">أنا يا دوب ماشي</span> دلوقت                                              	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يدلوقت</span>          	| Now/At this moment/ at this time/ at present                                   	| EGY , <span dir="rtl">أنا يادوب ماشي</span> دلوقت                                               	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يهنا</span>            	| Here                                                                           	| EGY , <span dir="rtl">تعالي</span> هنا                                                          	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يهناك</span>           	| There                                                                          	| EGY , <span dir="rtl">ما تروحش</span> هناك                                                      	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يكمان</span>           	| Also / Too                                                                     	| EGY , <span dir="rtl">هو كمان بيحبّ يعرف كل</span> حاجة                                          	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يبرضك</span>           	| also, too, nevertheless, even so, all the same. intensifier « really, surely » 	| EGY                                                                      	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يبرضو</span>           	| also, too, nevertheless, even so, all the same. intensifier « really, surely » 	| EGY , <span dir="rtl">حتيجي معانا برضو؟; بِيكَلِّمها كلّ يوم وبرضو ما فيش</span> فايدة; مش كدة برضو؟ 	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يبعدين</span>          	| Later, Next                                                                    	| EGY , <span dir="rtl">بعدين نروح</span> للسنما                                                  	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يامال</span>           	| Hence/then, So                                                                 	| EGY , <span dir="rtl">عشان ايه</span> أُمّال؟                                                     	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يبس</span>             	| Only, Enough                                                                   	| EGY , <span dir="rtl">بَأَحِبّ اللون الأزرق بس; أنا بسّ اللّي عارفة</span> حقيقته                     	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يسنس</span>            	| without paying, gratis                                                         	| EGY , <span dir="rtl">دخل السّيما</span> سنس                                                     	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يحتتك</span>           	| Rapaciously, feverishly, frenzically, frienziedly                              	| EGY , <span dir="rtl">نزل عالعيش حتتك</span> بتتك                                               	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يبتتك</span>           	| Rapaciously, feverishly                                                        	| EGY , <span dir="rtl">نزل عالعيش حتتك</span> بتتك                                               	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يحقة</span>            	| Truly, really                                                                  	| EGY , <span dir="rtl">حقّة بطّلوا ده واسمعوا</span> ده                                            	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يبقى</span>            	| So, then                                                                       	| EGY , <span dir="rtl">بَقَى بَسّ; أنت عاوز بقى تضحّك علينا الخلق; اوع</span> بقى; بقى عايز تنساني    	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يبعد</span>            	| also, still                                                                    	| GLF                                                                      	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يبس</span>             	| enough, only, just                                                             	| GLF                                                                      	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يهني</span>            	| here                                                                           	| GLF                                                                      	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يلسّع</span>            	| not yet                                                                        	| GLF                                                                      	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يسيدا</span>           	| straight ahead                                                                 	| GLF                                                                      	|
+| ADV          	| <span dir="rtl">يظرف</span>                	| <span dir="rtl">يهناك</span>           	| there                                                                          	| GLF                                                                      	|
+
+</details>
+</details>
+
+
+<details>
+<summary markdown="block">
+### ADV_INTERROG - <span dir="rtl">ظرف_استفهام</span>
+
+</summary>
+
+**Interrogative Adverbs**
+: Interrogative adverbs are invariable words that introduce questions that give specific information about time, location, manner, or purpose.
+
+- Interrogative Adverbs don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                	| Arabic Example            	| English Gloss 	| Comments/Examples/Diaclect 	|
+|--------------	|-----------------------------------	|---------------------------	|---------------	|----------------------------	|
+| ADV_INTERROG 	| <span dir="rtl">ظرف_استفهام</span>  	| <span dir="rtl">شلون</span>  	| how           	| GLF                        	|
+| ADV_INTERROG 	| <span dir="rtl">ظرف_استفهام</span>  	| <span dir="rtl">كيف</span>  	| how           	| GLF                        	|
+| ADV_INTERROG 	| <span dir="rtl">ظرف_استفهام</span>  	| <span dir="rtl">وشي</span>  	| how           	| GLF                        	|
+| ADV_INTERROG 	| <span dir="rtl">ظرف_استفهام</span>  	| <span dir="rtl">متى</span>  	| when          	| GLF                        	|
+| ADV_INTERROG 	| <span dir="rtl">ظرف_استفهام</span>  	| <span dir="rtl">وين</span>  	| where         	| GLF                        	|
+| ADV_INTERROG 	| <span dir="rtl">ظرف_استفهام</span>  	| <span dir="rtl">ليش</span>  	| why           	| GLF                        	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### ADV_REL - <span dir="rtl">ظرف_موصول</span>
+
+</summary>
+
+**Relative Adverbs**
+: Relative adverbs are invariable words that introduce adverbial relative clauses that give specific information about time, location, manner, or purpose.
+
+- Relative Adverbs don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                	| Arabic Example            	| English Gloss 	| Comments/Examples/Diaclect 	|
+|--------------	|-----------------------------------	|---------------------------	|---------------	|----------------------------	|
+| ADV_REL 	| <span dir="rtl">ظرف_موصول</span>  	| <span dir="rtl">وين</span>  	| where           	| GLF, <span dir="rtl">لازم تخبرني وين سرت</span>    	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PREP - <span dir="rtl">حرف_جر</span>
+
+</summary>
+
+**Prepositions**
+: The term **preposition** is used to represent the closed class of items which have traditionally been identified as prepositions in Arabic.
+
+- Prepositions don't take any features.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص            	| Arabic Example             	| English Gloss 	| Comments/Examples/Diaclect                   	|
+|--------------	|-------------------------------	|----------------------------	|---------------	|----------------------------------------------	|
+| PREP         	| <span dir="rtl">حرف_جر</span> 	| <span dir="rtl">في</span>  	| in, at        	| GLF                                          	|
+| PREP         	| <span dir="rtl">حرف_جر</span> 	| <span dir="rtl">مع</span>  	| with          	| GLF                                          	|
+| PREP         	| <span dir="rtl">حرف_جر</span> 	| <span dir="rtl">ويّا</span> 	| with          	| GLF                                          	|
+| PREP         	| <span dir="rtl">حرف_جر</span> 	| <span dir="rtl">ب+</span>  	| with          	| GLF                                          	|
+| PREP         	| <span dir="rtl">حرف_جر</span> 	| <span dir="rtl">و+</span>  	| by            	| GLF,EGY, <span dir="rtl">والله العظيم</span> 	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### INTERJ - <span dir="rtl">تعجب</span>
+
+</summary>
+ 
+ **Interjections**
+: Interjections are words or phrases (response particles) that express the speaker’s reaction to a particular proposition or sentence.
+
+- Interjections don't take any features.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص            	| Arabic Example                	| English Gloss      	| Comments/Examples/Diaclect 	|
+|--------------	|-------------------------------	|-------------------------------	|--------------------	|----------------------------	|
+| INTERJ       	| <span dir="rtl">تعجب</span>   	| <span dir="rtl">بس</span>     	| enough             	| EGY, <span dir="rtl">بس. كفاية</span>   	|
+| INTERJ       	| <span dir="rtl">تعجب</span>   	| <span dir="rtl">مرحبا</span>   	| hello              	| GLF                        	|
+| INTERJ       	| <span dir="rtl">تعجب</span>   	| <span dir="rtl">الو</span>    	| hello (on phone)   	| GLF                        	|
+| INTERJ       	| <span dir="rtl">تعجب</span>   	| <span dir="rtl">يالله</span>   	| hurry up, come on! 	| GLF                        	|
+| INTERJ       	| <span dir="rtl">تعجب</span>   	| <span dir="rtl">لأ</span>     	| no                 	| GLF                        	|
+| INTERJ       	| <span dir="rtl">تعجب</span>   	| <span dir="rtl">انزين</span>   	| OK                 	| GLF                        	|
+| INTERJ       	| <span dir="rtl">تعجب</span>   	| <span dir="rtl">اوكيه</span>   	| OK                 	| GLF                        	|
+| INTERJ       	| <span dir="rtl">تعجب</span>   	| <span dir="rtl">حشى</span>    	| GLF                	|                            	|
+
+</details>
+</details>
 
 
 
