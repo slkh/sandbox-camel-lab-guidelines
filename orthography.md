@@ -12,7 +12,7 @@ moreExamples: Click Here For More Examples
 
 
 
-CODA*: Conventional Orthography for Dialectal Arabic
+CODA*: Conventional Orthography for Dialectal Arabic 
 ===
 
 ### CODA* Mission
@@ -45,7 +45,7 @@ CODA*: Conventional Orthography for Dialectal Arabic
 
 CODA* (pronounced CODA Star, as in, for any dialect) is a conventional orthography for dialectal Arabic. It is designed primarily for the purpose of developing computational models of Arabic dialects. See CODA* Main Page for a description of CODA* mission statement and design guidelines.
 
-Some sections of these guidelines are continously researched and updated as more dialectal data is incorporated.
+Some sections of these guidelines are continuously researched and updated as more dialectal data is incorporated.
 
 (CODA* version: 0.43)
 
@@ -201,7 +201,6 @@ Our list of allowed pairings is presented in the table below:
 
 ***
     
-<details><summary markdown='span'>{{ page.moreExamples }}</summary>
   
   
 
@@ -212,6 +211,11 @@ Our list of allowed pairings is presented in the table below:
 | <span dir='rtl'>فستان</span>  | <span class='caphi'>f u s t. aa n</span>    | dress           | ت           | t.              | t         | Amman        | فسطان، فصطان                                                                                                                                                                                                     | 
 | <span dir='rtl'>ذيل</span>    | <span class='caphi'>d ee l</span>           | tail            | ذ           | d               | dh        | Beirut       | ديل                                                                                                                                                                                                              | 
 | <span dir='rtl'>ضحك</span>    | <span class='caphi'>d i 7 i k</span>        | he laughed      | ض           | d               | d.        | Cairo        | دحك                                                                                                                                                                                                              | 
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| CODA                          | CAPHI                                       | Gloss           | CODA Letter | Dialectal Sound | MSA Sound | e.g Dialect  | NON-CODA examples; Comments  
+|-------------------------------|---------------------------------------------|-----------------|-------------|-----------------|-----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
 | <span dir='rtl'>ضفدعة</span>  | <span class='caphi'>d. u f d. a 3 a</span>  | frog            | د           | d.              | d         | Cairo        | ضفضعة                                                                                                                                                                                                            | 
 | <span dir='rtl'>ظهرية</span>  | <span class='caphi'>d. u h r i y y a</span> | shaddow         | ظ           | d.              | dh.       | Jeddah       | ضهرية                                                                                                                                                                                                            | 
 | <span dir='rtl'>ذوق</span>    | <span class='caphi'>dh. oo g</span>         | tasting         | ذ           | dh.             | dh        | Baghdad      | ظوق                                                                                                                                                                                                              | 
@@ -727,16 +731,53 @@ Demonstrative pronouns can be found in three forms:
 
 
 
-### Acknowledgments
-* This work is supported by the Gulf Arabic Morphological Annotation project (New York University Abu Dhabi - research enhancement fund)
-* This work is supported by the Multi-Arabic Dialect Applications and Resources (MADAR) project (grant NPRP 7-290-1-047 from the Qatar National Research Fund – a member of Qatar Foundation).
-
 
 ### CODA* Seed Lexicon
 A large and growing database containing verified examples of CODA* spelling for dialectal words, including affixes and clitics, is available here.
 
 <iframe width="1200" height="675" src="https://datastudio.google.com/embed/reporting/9c0c420a-0ba2-440a-942e-b3e61cf6306d/page/jeFhB" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+### Publications
+- Habash, Nizar, Fadhl Eryani, Salam Khalifa, Owen Rambow,† Dana Abdulrahim, Alexander Erdmann, Reem Faraj, Wajdi Zaghouani, Houda Bouamor, Nasser Zalmout, Sara Hassan, Faisal Al-Shargi, Sakhar Alkhereyf, Basma Abdulkareem, Ramy Eskander, Mohammad Salameh, Hind Saddiki. "Unified Guidelines and Resources for Arabic Dialect Orthography". LREC 2018. [PDF](http://www.lrec-conf.org/proceedings/lrec2018/pdf/395.pdf){:target="_blank"}
+- Jarrar, Mustafa, Nizar Habash, Faeq Alrimawi, Diyam Akra and Nasser Zalmout. "Curras: an annotated corpus for the Palestinian Arabic dialect." Language Resources and Evaluation. 2017. [PDF](http://link.springer.com/article/10.1007/s10579-016-9370-7){:target="_blank"}
+- Khalifa, Salam, Nizar Habash, Dana Abdulrahim and Sara Hassan. A Large Scale Corpus of Gulf Arabic.LREC.2016. [PDF](http://www.lrec-conf.org/proceedings/lrec2016/pdf/823_Paper.pdf){:target="_blank"}
+- Saadane, Houda, and Nizar Habash. "A conventional orthography for Algerian Arabic." ANLP Workshop 2015. [PDF](http://www.aclweb.org/anthology/W15-3208){:target="_blank"}
+- Zribi, Inès, et al. "A Conventional Orthography for Tunisian Arabic." LREC. 2014. [PDF](https://pdfs.semanticscholar.org/e855/1be410daf4525a26d87f3c867b6db6955076.pdf){:target="_blank"}
+- Habash, Nizar, Mona T. Diab, and Owen Rambow. "Conventional Orthography for Dialectal Arabic." LREC. 2012. [PDF](http://www.lrec-conf.org/proceedings/lrec2012/pdf/579_Paper.pdf){:target="_blank"}
 
-### Archive
-<iframe src="https://drive.google.com/embeddedfolderview?id=1jThn3evyILiLJIPZbMnzh5Bhz9eiVgNW#list" style="width:100%; height:600px; border:0;"></iframe>
+
+
+### Contributors
+
+- Nizar Habash, New York University Abu Dhabi, UAE.
+- Mona Diab, George Washington University, USA.
+- Owen Rambow, Columbia University, USA.
+- Inès Zribi, Université de Sfax, Tunisia.
+- Rahma Boujelbane, Université de Sfax, Tunisia.
+- Abir Masmoudi, Université de Sfax, Tunisia.
+- Mariem Ellouze, Université de Sfax, Tunisia.
+- Lamia Belguith, Université de Sfax, Tunisia.
+- Houda Saadane, Université de Marne-la-Vallée, France.
+- Mustafa Jarrar, Birzeit University, Palestine.
+- Diyam Akra, Birzeit University, Palestine.
+- Faeq Alrimawi, Birzeit University, Palestine.
+- Nasser Zalmout, New York University Abu Dhabi, UAE.
+- Mahdi Arar, Birzeit University, Palestine.
+- Eric Bartolotti.
+- Houcemeddine Turki, Université de Sfax, Tunisia.
+- Emad Adel, Sbikha 1979 High School, Tunisia.
+- Tariq Daouda, Université de Montréal, Canada.
+- Nassim Regragui, Copenhagen Business School, Denmark.
+- Salam Khalifa, New York University Abu Dhabi, UAE.
+- Dana Abdulrahim, University of Bahrain, Bahrain.
+- Sara Hassan, New York University Abu Dhabi, UAE.
+- Fadhl Eryani, New York University Abu Dhabi, UAE.
+- Alex
+
+<!-- ### Archive
+<iframe src="https://drive.google.com/embeddedfolderview?id=1jThn3evyILiLJIPZbMnzh5Bhz9eiVgNW#list" style="width:100%; height:600px; border:0;"></iframe> -->
+
+
+<!-- ### Acknowledgments
+* This work is supported by the Gulf Arabic Morphological Annotation project (New York University Abu Dhabi - research enhancement fund)
+* This work is supported by the Multi-Arabic Dialect Applications and Resources (MADAR) project (grant NPRP 7-290-1-047 from the Qatar National Research Fund – a member of Qatar Foundation). -->
