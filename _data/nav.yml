@@ -12,8 +12,5 @@ docs:
 - title: Morphology
   url: morphology.html
 
-# - title: Data
-#   url: data.html
-
-# - title: Contributors
-#   url: contributors.html
+- title: Syntax
+  url: syntax.html
