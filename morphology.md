@@ -4,9 +4,9 @@ title: CAMeL Guidelines | Morphology
 camelpos: CAMEL POS
 moreExamples: Annotation examples
 ---
-CAMEL POS Schema and Guidelines
-===
-
+* 
+{:toc}
+# CAMEL POS Schema and Guidelines
 
 ## Motivation and Goals:
 {{ page.camelpos }} is inspired by the ARZATB tagset and guidelines (Maamouri et al., 2012) 
