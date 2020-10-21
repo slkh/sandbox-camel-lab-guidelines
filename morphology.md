@@ -116,6 +116,8 @@ In this section we provide detailed guidelines in the context of a comperhensive
 
 ### Morphologican Annotation
 
+* * *
+
 <details>
 
 <summary markdown="block"> 
@@ -839,8 +841,284 @@ For example, the word <span dir="rtl">عرب</span> 'Arabs' could be a noun or a
 </details>
 </details>
 
+<details>
+<summary markdown="block">
+### CONJ - <span dir="rtl">حرف_عطف</span>
+
+</summary>
+
+**Coordinating Conjunctions**
+: Conjunctions are used to coordinate and link independent constituents with each other.
+
+- Conjunctions don't take any features.
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص 	| Arabic Example 	| English Gloss     	| Comments/Examples/Diaclect                                                 	|
+|--------------	|--------------------	|----------------	|-------------------	|----------------------------------------------------------------------------	|
+| CONJ         	| <span dir="rtl">حرف_عطف</span>            	| <span dir="rtl">بس </span>            	| But               	| EGY , <span dir="rtl">بس كنت دايما حاسس اني علاقتي بيه شخصية; أنا فاهمة كلّ حاجة بسّ بأستعبط</span> 	|
+| CONJ         	| <span dir="rtl">حرف_عطف</span>            	| <span dir="rtl">و+ </span>            	| and               	| GLF,EGY , <span dir="rtl">اكلت التفاح</span> والعنب                                               	|
+| CONJ         	| <span dir="rtl">حرف_عطف</span>            	| <span dir="rtl">ف+ </span>            	| and, then         	| GLF                                                                        	|
+| CONJ         	| <span dir="rtl">حرف_عطف</span>            	| <span dir="rtl">ولا</span>            	| or (in questions) 	| GLF                                                                        	|
+
+</details>
+</details>
 
 
+<details>
+<summary markdown="block">
+### CONJ_SUB - <span dir="rtl">أداة_ربط</span>
+
+</summary>
+
+**Subordinating Conjunctions**
+: A subordinating conjunction marks a sentence as dependent to another sentence that is independent and called the main clause.
+
+- Subordinating conjunction don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                   	| Arabic Example            	| English Gloss    	| Comments/Examples/Diaclect                              	|
+|--------------	|-----------------------------------	|----------------------------	|-----------------	|----------------------------------------------------------	|
+| CONJ_SUB     	| <span dir="rtl">أداة_ربط</span>    	| <span dir="rtl">و+</span>    	| while            	| GLF,EGY , <span dir="rtl">شفتها وهي طالعة مالبيت</span> 	|
+
+</details>
+</details>
+
+
+<details>
+<summary markdown="block">
+### PART_VOC - <span dir="rtl">حرف_نداء</span>
+
+</summary>
+
+**Vocative Particles**
+
+- Vocative Particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                   	| Arabic Example               	| English Gloss  	| Comments/Examples/Diaclect   	|
+|--------------	|-----------------------------------	|----------------------------	|--------- -----	|----------------------------	|
+| PART_VOC     	| <span dir="rtl">حرف_نداء</span>    	| <span dir="rtl">يا</span> 	| o, hey           	| GLF,EGY                   	|
+
+</details>
+</details>
+
+
+<details>
+<summary markdown="block">
+### PART_RESTRICT - <span dir="rtl">اداة_استثناء</span>
+
+</summary>
+
+**Restrictive Particles**
+: It is used in a negative construction marking a restriction.
+
+- Restrictive Particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                            	| Arabic Example               	| English Gloss    	| Comments/Examples/Diaclect                            	|
+|--------------	|-----------------------------------------------	|----------------------------	|---------------	|-------------------------------------------------------	|
+| PART_RESTRICT     	| <span dir="rtl">اداة_استثناء</span>    	| <span dir="rtl">الا</span> 	| Except for/only  	| GLF,EGY , <span dir="rtl">ما يعلم به إلاّ ربّنا</span>    	|
+
+</details>
+</details>
+
+
+<details>
+<summary markdown="block">
+### PART_NEG - <span dir="rtl">اداة_نفي</span>
+
+</summary>
+
+**Negative Particles**
+: A particle that negate what comes after it.
+
+- Negative particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص            	| Arabic Example            	| English Gloss     	| Comments/Examples/Diaclect 	|
+|--------------	|-------------------------------	|---------------------------	|-------------------	|----------------------------	|
+| PART_NEG     	| <span dir="rtl">اداة_نفي</span>  	| <span dir="rtl">م+</span>  	| not               	| GLF                        	|
+| PART_NEG     	| <span dir="rtl">اداة_نفي</span>  	| <span dir="rtl">ما</span>  	| not               	| GLF                        	|
+| PART_NEG     	| <span dir="rtl">اداة_نفي</span>  	| <span dir="rtl">مب</span>  	| not               	| GLF                        	|
+| PART_NEG     	| <span dir="rtl">اداة_نفي</span>  	| <span dir="rtl">هب</span>  	| not               	| GLF                        	|
+| PART_NEG     	| <span dir="rtl">اداة_نفي</span>  	| <span dir="rtl">لا</span>  	| not, neither, nor 	| GLF                        	|
+
+</details>
+</details>
+
+
+<details>
+<summary markdown="block">
+### PART_DET - <span dir="rtl">اداة_تعريف</span>
+
+</summary>
+
+**Determiner Particles**
+: A clitic that attaches to nominals.
+
+- Determiner particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                   	| Arabic Example               	| English Gloss  	| Comments/Examples/Diaclect   	|
+|--------------	|-----------------------------------	|----------------------------	|--------- -----	|----------------------------	|
+| PART_DET     	| <span dir="rtl">اداة_تعريف</span>    	| <span dir="rtl">ال+</span> 	| the           	| GLF,EGY                   	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PART_INTERROG - <span dir="rtl">اداة_استفهام</span>
+
+</summary>
+
+**Interrogative Particles**
+: Interrogative particles introduce questions.
+
+- Interrogative particles don't take any features
+
+</details>
+
+<details>
+<summary markdown="block">
+### PART_FUT - <span dir="rtl">اداة_استقبال</span>
+
+</summary>
+
+**Future Particles**
+: Interrogative particles mark the future when attaches to imperfective verbs.
+
+- Future particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                   	| Arabic Example               	| English Gloss  	| Comments/Examples/Diaclect   	|
+|--------------	|-----------------------------------	|----------------------------	|--------------	|----------------------------	|
+| PART_FUT     	| <span dir="rtl">اداة_استقبال</span>    	| <span dir="rtl">ب+</span> 	| will           	| GLF                   	|
+| PART_FUT     	| <span dir="rtl">اداة_استقبال</span>    	| <span dir="rtl">رح</span> 	| will           	| GLF                   	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PART_FOCUS - <span dir="rtl">اداة_تفصيل</span>
+
+</summary>
+
+**Focus Particles**
+: Focus particles highlight the topic of the sentence or adds emphasis.
+
+- Focus particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                   	| Arabic Example               	| English Gloss  	| Comments/Examples/Diaclect   	|
+|--------------	|-----------------------------------	|----------------------------	|--------------	|----------------------------	|
+| PART_FOCUS     	| <span dir="rtl">اداة_تفصيل</span>    	| <span dir="rtl">اما</span> 	| As for           	| GLF                   	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PART_EMPHATIC - <span dir="rtl">اداة_توكيد</span>
+
+</summary>
+
+**Emphatic Particles**
+: Emphatic particles adds emphasis.
+
+- Emphatic particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                   	| Arabic Example               	| English Gloss  	| Comments/Examples/Diaclect   	|
+|--------------	|-----------------------------------	|----------------------------	|---------------	|----------------------------	|
+| PART_EMPHATIC     	| <span dir="rtl">اداة_توكيد</span>    	| <span dir="rtl">ل+</span> 	| That           	| GLF , <span dir="rtl">والله لأضاربك</span>   	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PART_RC - <span dir="rtl">جواب_شرط</span>
+
+</summary>
+
+**Response Conditional Particles**
+: Response conditional particles are used in conditional sentences introducing the apodosis sentence/main clause.
+
+- Response conditional particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص                   	| Arabic Example               	| English Gloss  	| Comments/Examples/Diaclect   	|
+|--------------	|-----------------------------------	|----------------------------	|---------------	|----------------------------	|
+| PART_RC     	| <span dir="rtl">جواب_شرط</span>    	| <span dir="rtl">ف+</span> 	| So then           	| EGY , <span dir="rtl">إن كنت عايز فخلّيك; إذا كان كده فمعليش</span>   	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PART - <span dir="rtl">حرف</span>
+
+</summary>
+
+**Particles**
+: Particles do not assign case and they can be omitted without affecting or altering meaning and/or structure.
+
+- Particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features 	| قسم الكلام.الخصائص           	| Arabic Example               	| English Gloss  	| Comments/Examples/Diaclect                                	|
+|--------------	|------------------------------	|----------------------------	|---------------	|-----------------------------------------------------------	|
+| PART     	| <span dir="rtl">حرف</span>    	| <span dir="rtl">و+</span> 	| and           	| GLF,EGY , <span dir="rtl">سبق وشفته</span>                	|
+| PART     	| <span dir="rtl">حرف</span>    	| <span dir="rtl">جان</span> 	| if, and so    	| GLF , <span dir="rtl">لولاها جان ما كانت الكل بالكل</span>   	|
+
+</details>
+</details>
+
+<details>
+<summary markdown="block">
+### PART_PROG - <span dir="rtl">حرف_مضارعة</span>
+
+</summary>
+
+**Progressive Particle**
+: Denotes that a verb is in action
+
+- Progressive particles don't take any features
+
+</details>
+
+<details>
+<summary markdown="block">
+### PART_CONNECT - <span dir="rtl">حرف_ربط</span>
+
+</summary>
+
+**Connective Particles**
+: Connective particles connect two clauses. They are most commonly used to introduce a comment clause after a clause starting with <span dir="rtl">اما</span>.
+
+- Connective particles don't take any features
+
+<details><summary markdown='span'>{{ page.moreExamples }}</summary>
+
+| POS.Features  	| قسم الكلام.الخصائص               	| Arabic Example               	| English Gloss            	| Comments/Examples/Diaclect                                                       	|
+|---------------	|----------------------------------	|----------------------------	|-----------------------	|-------------------------------------------------------------------------------	|
+| PART_CONNECT  	| <span dir="rtl">حرف_ربط</span>  	| <span dir="rtl">ف+</span> 	| {Discourse connective}  	| EGY , <span dir="rtl">أمّا أنا فمش رايحة; أمّا في البيت فأنت اللّي بتتحكّم</span> 	|
+
+</details>
+</details>
 
 * * *
 
@@ -911,6 +1189,12 @@ Deciding the dialect tag depends on the context of the sentence and/or the docum
 Although all words belonging to the same sentence may get the same dialect tag, in some cases two different dialectal structure could occur in the same sentence, hence we tag per word
 </details>
 
+
+## Acknowledgments
+
+- This work was funded by a Research Enhancement Fund from New York University Abu Dhabi
+- Portions of the Egyptian Arabic Guidelines are based on the LDC's Egyptian Arabic Morphological Guidelines (Maamouri et al., 2013)
+- Portions of the Gulf entries are from the textbook: Ramsah, An Introduction to learning Emirati Dialect and Culture (Nasser Isleem and Ayesha Al Hashemi, 2015)
 
 [^1]: Refer to the [phonology guidelines]({% link phonology.md %}) for the complete CAPHI reference.
 [^2]: 'Ta Marbuta' suffix is usually used to mark the feminine gender.
